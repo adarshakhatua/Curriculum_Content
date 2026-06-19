@@ -1,0 +1,203 @@
+Trimester,Week,Session,Session Title,Objective,Topics Covered,Guide,Date
+Trimester 2,21,21.1,Tree Ensembles — Intuition to XGBoost,Build intuition for ensemble methods and implement XGBoost with proper tuning and CV,"""Understand the limitations of a single decision tree and why ensemble methods are used.
+Explain the basic intuition behind tree ensemble techniques.
+Differentiate between bagging (Random Forest) and boosting (XGBoost) at a conceptual level.
+Apply Random Forest or XGBoost to train a model and observe performance improvements over a single tree.
+Interpret basic feature importance from ensemble models.""",Industry Mentor,12/03/2026
+Trimester 2,21,21.2,Explainability & Ensembling,"Use SHAP to explain model predictions globally and per-sample, and blend models effectively","SHAP values: game-theory concept (brief), what they measure
+Global explanations: summary plot, mean absolute SHAP bar chart
+Local explanations: waterfall plot for a single prediction
+Simple model blending: averaging and weighted ensembles
+Stacking concept: why a meta-model works (conceptual only)",Industry Mentor,14/03/2026
+Trimester 2,22,22.1,Clustering in Practice,Apply K-Means and DBSCAN to solve real-world segmentation and noise-handling problems,"K-Means: centroid algorithm, k-means++ init, elbow method, silhouette score
+DBSCAN: density concept, eps/min_samples, handling noise points
+Cluster visualisation with 2-D PCA scatter
+Market segmentation mini-demo (sklearn, quick plot)",Industry Mentor,24/03/2026
+Trimester 2,22,22.2,Dimensionality Reduction & Anomaly Detection,"Use PCA, UMAP and Isolation Forest for dimensionality reduction and fraud detection","PCA: variance-maximisation intuition, explained variance ratio, choosing n_components
+UMAP: faster alternative for visualisation, when to prefer it over PCA
+Isolation Forest: contamination parameter, anomaly scoring
+Fraud detection use-case walkthrough",Industry Mentor,31/03/2026
+Trimester 2,23,23.1,Neural Network Fundamentals,Understand neural network architecture and implement forward pass in PyTorch,"Perceptron to multi-layer: node, layer, weight intuition
+Activation functions: ReLU, sigmoid, tanh — when to use each
+Loss functions: MSE vs cross-entropy
+Forward pass walkthrough in PyTorch (nn.Module basics)",Industry Mentor,
+Trimester 2,23,23.2,Training Loop & Model Debugging,Train and debug neural networks by reading loss curves and tuning key hyperparameters,"PyTorch training loop: DataLoader, optimizer.step(), loss tracking
+Batch size vs learning rate: practical tradeoffs
+Reading loss curves: overfitting signals, convergence patterns
+Basic debugging: gradient inspection, checkpoint saving",Industry Mentor,
+Trimester 2,23,23.3,Ensemble Methods and Model Interpretability in Modern Machine Learning,Understand why ensemble models dominate tabular ML and how explainability techniques help interpret predictions,"Why ensembles outperform single models: bias-variance decomposition
+Bagging vs boosting: conceptual comparison with real examples
+XGBoost regularisation and why it generalises better than vanilla GBM
+SHAP: Shapley values intuition, global vs local explanations
+Model blending and stacking overview",IIT Prof,
+Trimester 2,24,24.1,LLM Basics & Tokenisation,"Understand transformer architecture, tokenisation and use Hugging Face pipelines confidently","Transformer overview: encoder-decoder at a high level (no math)
+Tokenisation: BPE concept, token vs word, token counting in practice
+Embeddings: semantic similarity intuition
+Hugging Face pipeline API: load model, run inference in 3 lines",Industry Mentor,
+Trimester 2,24,24.2,LLMs in Practice,Design effective prompts and run cost-aware LLM inference with zero-shot and few-shot patterns,"Zero-shot prompting: structure and best practices
+Few-shot prompting: example selection, format consistency
+System prompts and role separation
+Inference parameters: temperature, top-p basics
+Cost awareness: tokens per request, pricing overview",Industry Mentor,
+Trimester 2,25,25.1,Vector Databases & Embeddings,Generate embeddings and perform similarity search using FAISS and Chroma,"Why vector DBs: semantic search vs keyword search
+Embedding generation: sentence-transformers, OpenAI embeddings
+FAISS: flat index, cosine similarity search demo
+Chroma: collection setup, add and query documents",Industry Mentor,
+Trimester 2,25,25.2,RAG Fundamentals,Build a simple Retrieval-Augmented Generation pipeline with well-chosen chunking strategies,"RAG architecture: retriever + generator pipeline
+Document chunking strategies: size, overlap, by section
+End-to-end simple RAG pipeline build
+Basic grounding check: does the answer reference the context?",Industry Mentor,
+Trimester 2,26,26.1,MLOps Fundamentals,"Set up experiment tracking, model versioning and Git workflows for reproducible ML projects","What MLOps solves: reproducibility, collaboration, reliability
+Experiment tracking: MLflow basics — log params, metrics, artifacts
+W&B overview: dashboard and run comparison
+Model versioning: tagging and registry concept",Industry Mentor,
+Trimester 2,26,26.2,Model Deployment Basics,"Containerise and serve an ML model reliably with FastAPI, Docker and basic health monitoring","Docker basics: image, container, simple Dockerfile for ML
+FastAPI: /predict endpoint, request/response schema
+Environment hygiene: requirements.txt, version pinning
+Basic monitoring: /health endpoint, logging predictions",Industry Mentor,
+Trimester 2,26,26.3,Designing Production AI Systems with LLMs and Retrieval,"Understand how modern AI applications are built using large language models, embeddings, retrieval systems, and basic MLOps practices","Transformer and tokenisation overview
+Embeddings and semantic similarity search
+Vector databases and retrieval concepts
+RAG architecture and chunking strategies
+Prompting patterns: zero-shot, few-shot
+Basics of ML deployment pipelines",IIT Prof,
+Trimester 2,27,27.1,Buffer | Trimester 2 End Trimester Evaluation,Buffer | Trimester 2 End Trimester Evaluation,Buffer | Trimester 2 End Trimester Evaluation,NA,
+Trimester 3,28,28.1,Mini-Project: Build & Baseline,"Scope a real problem, select data and build a rigorously evaluated baseline model end-to-end","Problem framing and dataset selection
+EDA: quick profiling, target distribution check
+Baseline model build with sklearn pipeline
+Evaluation metric selection and first results
+Git repo setup and notebook structure",Industry Mentor,
+Trimester 3,28,28.2,Mini-Project: Review & Present,"Walk through code, interpret results honestly and deliver a concise 5-minute project demo","Code walkthrough: structure, clarity, reproducibility
+Result interpretation: what the metrics actually mean
+Error analysis: where is the model failing?
+2-3 actionable improvement suggestions
+5-min demo rehearsal with peer feedback",Industry Mentor,
+Trimester 3,29,29.1,CNN Fundamentals,Understand convolution and pooling and build an image classifier pipeline in PyTorch,"Convolution: kernel, stride, padding, feature map
+Pooling: max pooling, spatial reduction
+CNN architecture: Conv → Pool → Flatten → FC
+Image classification walkthrough in PyTorch
+Data augmentation basics: flip, rotate, crop",Industry Mentor,
+Trimester 3,29,29.2,Transfer Learning in Practice,Apply pre-trained CNNs and fine-tune them efficiently for custom image classification tasks,"Pre-trained models: ResNet, EfficientNet — when to use which
+Feature extraction vs fine-tuning: freeze vs unfreeze layers
+Practical strategy: unfreeze last layers first
+PyTorch demo: adapt ResNet to a custom dataset",Industry Mentor,
+Trimester 3,30,30.1,Sequence Models & Sentiment,Implement RNN/LSTM for text classification and understand sequential data challenges,"Sequential data challenges: order matters, variable length
+RNN: hidden state concept, unrolling intuition
+LSTM: forget/input/output gates (conceptual), vanishing gradient fix
+Text classification: tokenisation, padding, truncation
+Sentiment demo: IMDb dataset",Industry Mentor,
+Trimester 3,30,30.2,Transformers & Attention,Understand self-attention mechanism and apply BERT for sentiment analysis via Hugging Face,"Self-attention: query/key/value intuition (no deep math)
+Multi-head attention: why multiple heads help
+BERT: bidirectional, [CLS] token, MLM pre-training overview
+Sentiment analysis hands-on with Hugging Face pipeline",Industry Mentor,
+Trimester 3,30,30.3,Deep Learning for Vision and Language Applications,"Understand how deep learning models process visual and textual data using CNNs, sequence models, and transformer architectures","CNN architecture and convolution intuition
+Transfer learning with pre-trained vision models
+Sequence modelling with RNNs and LSTMs
+Vanishing gradient problem
+Self-attention and transformer intuition
+BERT overview for NLP tasks",IIT Prof,
+Trimester 3,31,31.1,Fine-Tuning LLMs — Concepts & Tools,Choose between full fine-tuning and PEFT/LoRA and use Hugging Face Trainer API effectively,"Full fine-tuning: what changes, compute cost
+PEFT concept: tune a small subset of parameters
+LoRA: low-rank adapter intuition, rank parameter
+Hugging Face Trainer API: key arguments, training loop
+When fine-tuning beats prompting",Industry Mentor,
+Trimester 3,31,31.2,LLM Internals & Scaling Awareness,"Understand context windows, KV cache and quantisation for memory-efficient LLM inference","Context window: what it means, practical limits
+KV cache: what is cached, why inference is faster
+Quantisation: INT8/4-bit — accuracy vs memory tradeoff
+GPU memory basics: model size estimation, batching limits",Industry Mentor,
+Trimester 3,32,32.1,Prompt Engineering,"Master prompting techniques including chain-of-thought, few-shot and structured outputs","Zero-shot and few-shot: format and example selection
+Chain-of-thought: when it helps, step-by-step instruction
+Structured outputs: JSON mode, schema prompting
+Role prompting: system vs user message design
+Common failure modes and fixes",Industry Mentor,
+Trimester 3,32,32.2,LLM Safety & Security,Identify prompt injection risks and apply guardrails for responsible LLM deployment,"Prompt injection: direct and indirect attack patterns
+Jailbreak patterns: common techniques to recognise
+Output validation: content filtering, format checks
+Guardrails: rule-based filters, NeMo Guardrails overview
+Responsible deployment checklist",Industry Mentor,
+Trimester 3,33,33.1,LLM APIs & App Building,Integrate OpenAI and Anthropic APIs with proper error handling and cost tracking,"OpenAI API: messages format, roles, key parameters
+Anthropic API: messages API pattern comparison
+Streaming responses: why and how
+Error handling: rate limits, retries, timeouts
+Cost tracking: token counting, budget guardrails",Industry Mentor,
+Trimester 3,33,33.2,Deploying an LLM App with Streamlit,Build and deploy a fully functional Streamlit app connected to an LLM API,"Streamlit basics: st.write, st.chat_message, layout components
+Session state: maintaining conversation history
+Connecting to LLM API: key handling, streaming responses
+Deploying to Streamlit Cloud: repo setup, secrets management",Industry Mentor,
+Trimester 3,33,33.3,Scaling and Deploying Large Language Model Applications,"Understand how large language models are optimised, controlled, and deployed through fine-tuning strategies, prompt engineering techniques, and real-world application architectures","Full fine-tuning vs parameter-efficient fine-tuning
+Context windows and KV cache concepts
+Quantisation for efficient inference
+Prompt engineering techniques
+Prompt injection and LLM security
+API-based LLM application architecture",IIT Prof,
+Trimester 3,34,34.1,Buffer | Trimester 3 Mid Trimester Evaluation,Buffer | Trimester 3 Mid Trimester Evaluation,Buffer | Trimester 3 Mid Trimester Evaluation,NA,
+Trimester 3,35,35.1,RAG Evaluation & Quality,"Measure retrieval quality, detect hallucinations and apply BLEU/ROUGE in RAG pipelines","Retrieval quality metrics: precision@k, recall@k, MRR
+Answer grounding: does the answer cite the retrieved context?
+Hallucination detection: basic checks and patterns
+BLEU/ROUGE: what they measure and their limitations
+Human eval basics: rating scales and what to assess",Industry Mentor,
+Trimester 3,35,35.2,AutoML & LLM Evaluation Concepts,Understand AutoML use cases and apply LLM evaluation frameworks and benchmark suites,"AutoML: what it automates, when to use it
+LLM evaluation frameworks: lm-evaluation-harness overview
+Benchmark suites: MMLU, HellaSwag — what they test
+Evaluation pitfalls: data contamination, benchmark gaming",Industry Mentor,
+Trimester 3,36,36.1,AI Agents — Concepts & Patterns,"Understand agent architectures, the ReAct pattern, tool use and common failure modes","What agents are: LLM + tools + memory + loop
+ReAct pattern: Reason → Act cycle
+Tool use: function calling, API tools
+Memory types: in-context vs external
+LangGraph intro: nodes, edges, state concept
+Common failure modes: loops, hallucinated tool calls",Industry Mentor,
+Trimester 3,36,36.2,Building a Simple Agent,"Build a working LangGraph agent with tool calls, state and a live web search demo","LangGraph setup: graph, nodes, edges
+State management: TypedDict state schema
+Tool calls: web search integration
+Running the agent: stream/invoke, inspecting steps
+End-to-end demo: simple web search agent",Industry Mentor,
+Trimester 3,37,37.1,Generative AI Overview,"Survey key generative AI paradigms — GANs, VAEs and diffusion models — and know when to use each","GANs: generator/discriminator concept, adversarial training
+VAEs: encoder-decoder, latent space sampling
+Diffusion models: noise-to-image intuition, why they dominate now
+Stable diffusion overview: text conditioning
+When to use each: task and modality mapping",Industry Mentor,
+Trimester 3,37,37.2,Responsible AI & Ethics,"Apply fairness, bias detection and human-in-the-loop principles in AI system design","Bias in ML: data bias, algorithmic bias, measurement bias
+Fairness metrics: demographic parity, equalized odds (conceptual)
+AI safety basics: specification gaming, misalignment risks
+Human-in-the-loop design: when to require human review
+Model cards: what to document and why",Industry Mentor,
+Trimester 3,37,37.3,Evaluating and Governing AI Systems,"Understand how modern AI systems are evaluated for quality, reliability, and fairness while exploring emerging architectures such as AI agents and generative AI models","Retrieval quality evaluation in RAG systems
+Hallucination detection and answer grounding
+AI agent architecture and ReAct pattern
+Overview of GANs, VAEs, and diffusion models
+Bias, fairness, and responsible AI practices
+Model documentation and governance",IIT Prof,
+Trimester 3,38,38.1,ML in Production,"Implement CI/CD for ML pipelines with logging, alerting and end-to-end observability","CI/CD for ML: GitHub Actions for model tests and automated retraining triggers
+Model versioning: registry concept, staging vs production
+Logging best practices: what to log, structured logs
+Alerting & observability: model drift signals, Prometheus/Grafana overview",Industry Mentor,
+Trimester 3,38,38.2,Data Pipelines & Scale Concepts,"Understand batch vs streaming data, Spark concepts and pipeline orchestration basics","Batch vs streaming data: use cases, tradeoffs
+Spark overview: RDDs, DataFrames, when to use Spark
+Data quality checks: schema validation, completeness
+Pipeline orchestration: Airflow/Prefect concept, DAG structure",Industry Mentor,
+Trimester 3,39,39.1,Reinforcement Learning Basics,"Understand MDP, reward and policy concepts and identify practical RL use cases","MDP: state, action, reward, transition
+Policy: deterministic vs stochastic
+Value functions: V(s) and Q(s,a) intuition
+Q-learning: update rule concept
+Real-world RL use cases: recommendations, robotics, game playing",Industry Mentor,
+Trimester 3,39,39.2,RL in Practice,"Experiment with Gymnasium, understand reward shaping and know when NOT to use RL","Gymnasium: env.reset(), env.step(), observation/action space
+Reward shaping: sparse vs dense rewards, designing rewards
+Policy gradient intuition: REINFORCE concept
+When NOT to use RL: data inefficiency, safety concerns, simpler alternatives",Industry Mentor,
+Trimester 3,40,40.1,Capstone: Project Planning,"Scope the capstone problem, validate data selection and define measurable success metrics","Problem scoping, dataset selection & validation
+Baseline strategy, success metrics definition",Industry Mentor,
+Trimester 3,40,40.2,Capstone: Coaching Session 1,"Unblock project progress through peer review, iteration planning and structured feedback","Group project walkthroughs, blockers discussion
+Iteration planning, peer feedback format",Industry Mentor,
+Trimester 3,40,40.3,Machine Learning Systems at Scale and Reinforcement Learning,Understand how machine learning systems operate at scale in production environments while exploring the foundations and practical applications of reinforcement learning,"CI/CD for ML pipelines
+Logging, monitoring, and observability
+Batch vs streaming data pipelines
+Distributed processing concepts (Spark overview)
+Markov Decision Process (MDP) framework
+Q-learning intuition and RL applications",IIT Prof,
+Trimester 3,41,41.1,Buffer | Trimester 3 End Trimester Evaluation,Buffer | Trimester 3 End Trimester Evaluation,Buffer | Trimester 3 End Trimester Evaluation,NA,
+Trimester 3,42,42.1,Demo Polish & Storytelling,Communicate ML results to non-technical audiences with clear slides and a confident live demo,"How to present ML work to non-technical audiences
+Key metrics to highlight, narrative structure
+Slide design principles, live demo tips",Industry Mentor,
+Trimester 3,42,42.2,Capstone: Coaching Session 2,"Finalise the capstone submission with targeted feedback, Q&A prep and career next-steps","Final feedback rounds, Q&A prep
+Submission checklist, next-steps & career pathways",Industry Mentor,
+Trimester 3,43,43.1,Trimester 3 — End Trimester Project,Trimester 3 — End Trimester Project,Trimester 3 — End Trimester Project,NA,

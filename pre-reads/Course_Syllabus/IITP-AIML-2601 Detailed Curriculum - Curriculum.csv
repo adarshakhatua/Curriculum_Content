@@ -1,0 +1,406 @@
+Module,Week,Session,Session Title,Learning Objective,Topics Covered (2-hr Content Scope),Guide
+Module 1: Foundations of AI and Data Science,6,6.1,Linear Algebra for ML,Use vectors and matrices as mathematical tools for ML,"Vectors (concept + NumPy arrays)
+vector arithmetic
+matrix creation
+matrix multiplication
+transpose; cosine similarity as a practical ML application",Industry Mentor
+Module 1: Foundations of AI and Data Science,6,6.2,Probability & Statistics for ML,Apply probability and statistical reasoning to ML problems,"Descriptive stats (mean
+median
+std
+variance); probability rules
+conditional probability
+Bayes' theorem; Normal distribution
+68-95-99.7 rule",Industry Mentor
+,7,7.1,Evaluation / Buffer / Project,,,NA
+Module 1: Foundations of AI and Data Science,8,8.1,Calculus & Gradient Descent for ML,Understand derivatives as optimization tools and implement gradient descent,"Derivative intuition (slope = rate of change)
+partial derivatives
+gradient vector; gradient descent algorithm
+learning rate effects
+simple NumPy implementation",Industry Mentor
+Module 1: Foundations of AI and Data Science,8,8.2,Statistical Inference Basics,Apply basic statistical inference to support data-driven decisions,"Central Limit Theorem (brief)
+confidence intervals (95% CI)
+null vs alternative hypothesis
+p-values
+t-test; practical demos with SciPy",Industry Mentor
+Module 1: Foundations of AI and Data Science,9,9.1,End-to-End ML Pipelines with Scikit-learn,Build end-to-end ML pipelines using Scikit-learn,"Supervised vs unsupervised overview
+train/test split
+sklearn fit/predict API
+basic preprocessing
+sklearn Pipeline construction
+building a first baseline model",Industry Mentor
+Module 1: Foundations of AI and Data Science,9,9.2,Data Cleaning & EDA with Pandas,Apply systematic data cleaning and exploratory data analysis,"Missing value strategies
+one-hot and label encoding
+outlier detection (IQR
+Z-score)
+correlation heatmaps
+univariate and bivariate analysis",Industry Mentor
+Module 1: Foundations of AI and Data Science,10,10.1,First ML Models — KNN & Linear Regression,Build and evaluate first ML models using KNN and linear regression,"KNN intuition
+distance metrics (Euclidean
+Manhattan); simple linear regression
+RMSE
+R²; model evaluation and basic comparison",Industry Mentor
+Module 1: Foundations of AI and Data Science,10,10.2,Data Collection — APIs & Web Scraping,Collect data from web sources programmatically,"REST API basics
+requests library for API calls
+BeautifulSoup web scraping
+pagination handling
+ethical scraping guidelines",Industry Mentor
+Module 1: Foundations of AI and Data Science,11,11.1,Logistic Regression & Model Evaluation,Master binary classification and key evaluation metrics,"Logistic regression
+sigmoid function
+log loss
+decision boundary; confusion matrix
+precision
+recall
+F1-score
+ROC-AUC; metric selection based on business context",Industry Mentor
+Module 1: Foundations of AI and Data Science,11,11.2,"AI Ethics, Fairness & Data Privacy",Understand and apply AI ethics and data privacy principles,"Bias in data and ML models
+fairness concepts
+responsible AI principles
+GDPR awareness
+data anonymization basics
+ethical data handling checklist",Industry Mentor
+Module 1: Foundations of AI and Data Science,12,12.1,Feature Engineering & Scikit-learn Pipelines,Engineer features and build reproducible sklearn pipelines,"Feature creation strategies
+interaction features
+ColumnTransformer
+full sklearn Pipeline
+model serialization with pickle/joblib",Industry Mentor
+Module 1: Foundations of AI and Data Science,11,11.1,End-to-End Mini-Project (Part 1) — Problem Setup & EDA,Set up and analyze data for an end-to-end ML project,"Problem framing
+dataset preparation
+comprehensive EDA
+feature engineering
+baseline model planning",Industry Mentor
+Module 1: Foundations of AI and Data Science,11,11.2,"End-to-End Mini-Project (Part 2) — Build, Evaluate & Document","Train, evaluate, and document a complete ML model","Model training (KNN, Linear Regression)
+model evaluation (RMSE,MAE,R²)
+residual analysis
+per-segment error breakdown
+model comparison
+project documentation",Industry Mentor
+,,,Evaluation / Buffer / Project,,,NA
+Module 2: Core Machine Learning & Engineering,12,12.1,Imbalanced Data & Advanced Classification,Handle imbalanced datasets and apply advanced classification strategies,"SMOTE
+ADASYN
+random under-sampling
+class weights in sklearn
+threshold tuning on PR curves
+cost-sensitive learning
+multi-class strategies (OvR, OvO)
+PR-AUC vs ROC-AUC",Industry Mentor
+Module 2: Core Machine Learning & Engineering,12,12.2,Feature Engineering & Sklearn Pipelines,Engineer features and build reproducible sklearn pipelines,"Feature creation strategies
+interaction features
+ColumnTransformer
+full sklearn Pipeline
+model serialization with pickle/joblib",Industry Mentor
+Module 2: Core Machine Learning & Engineering,13,13.1,"Git, Version Control & Code Quality for ML","Write organized, reproducible ML code with Git and Python best practices","Git essentials for ML (init
+commit
+branch
+push)
+virtual environments
+requirements.txt
+docstrings
+code organization and readability",Professor
+Module 2: Core Machine Learning & Engineering,13,13.2,"Regularization — Ridge, Lasso & ElasticNet","Prevent overfitting with L1, L2, and ElasticNet regularization","Ridge (L2)
+Lasso (L1)
+ElasticNet; Lagrangian intuition
+geometric constraint view; alpha tuning with cross-validation; feature selection using Lasso coefficients",Industry Mentor
+Module 2: Core Machine Learning & Engineering,14,14.1,Advanced Regression Techniques,Apply multiple and polynomial regression with residual diagnostics,"Multiple linear regression
+polynomial features
+coefficient interpretation
+multicollinearity detection (VIF)
+residual diagnostics
+heteroscedasticity",Industry Mentor
+Module 2: Core Machine Learning & Engineering,14,14.2,Time Series Forecasting,Forecast time-dependent data using ARIMA and Prophet,"Time series decomposition (trend
+seasonality
+residual)
+stationarity
+ARIMA basics
+Prophet framework
+time-feature engineering
+walk-forward validation",Industry Mentor
+Module 2: Core Machine Learning & Engineering,15,15.1,Decision Trees — Deep Dive,Build and interpret decision tree models with proper pruning,"CART algorithm
+Gini impurity
+entropy
+information gain
+tree visualization with plot_tree
+depth limits
+pre-pruning
+cost-complexity pruning
+feature importance
+partial dependence plots",Industry Mentor
+Module 2: Core Machine Learning & Engineering,15,15.2,Random Forests & Bagging Ensembles,Apply bagging ensemble methods for robust predictions,"Bootstrap sampling
+bagging intuition
+RandomForestClassifier/Regressor
+OOB error
+RF feature importance
+permutation importance
+hyperparameters (n_estimators
+max_features
+max_depth)",Industry Mentor
+Module 2: Core Machine Learning & Engineering,16,16.1,"Gradient Boosting — XGBoost, LightGBM & CatBoost",Apply gradient boosting frameworks and understand their mathematical foundations,"GBDT mathematical intuition (residuals + gradients on loss function)
+XGBoost hands-on
+LightGBM leaf-wise growth
+CatBoost categorical handling
+early stopping
+regularization
+stacking/voting ensembles",Industry Mentor
+Module 2: Core Machine Learning & Engineering,16,16.2,Hyperparameter Tuning & Experiment Tracking,Find optimal model parameters and track experiments systematically,"K-Fold and Stratified K-Fold cross-validation
+GridSearchCV
+RandomizedSearchCV
+Optuna
+bias-variance tradeoff
+MLflow + Weights & Biases integrated workflow",Professor
+Module 2: Core Machine Learning & Engineering,17,17.1,"Clustering — K-Means, DBSCAN & Hierarchical",Apply clustering algorithms to discover patterns in unlabeled data,"K-Means algorithm (k-means++ init)
+elbow method
+silhouette score; DBSCAN (eps
+min_samples
+core/border/noise points); hierarchical clustering linkage strategies; customer segmentation",Industry Mentor
+,,,Evaluation / Buffer / Project,,,
+Module 2: Core Machine Learning & Engineering,17,17.2,Anomaly Detection,Detect anomalies and fraudulent patterns in real datasets,"Isolation Forest algorithm
+Z-score and IQR methods
+fraud detection case study
+autoencoders intro
+scoring and threshold selection",Industry Mentor
+Module 2: Core Machine Learning & Engineering,18,18.1,"Dimensionality Reduction — PCA, t-SNE & UMAP",Reduce high-dimensional data using PCA and modern techniques,"PCA intuition (maximize variance)
+eigenvectors connection
+explained variance ratio
+n_components selection
+2D visualization
+UMAP
+t-SNE (perplexity)",Industry Mentor
+Module 2: Core Machine Learning & Engineering,18,18.2,SHAP & Model Interpretability,Explain model predictions globally and locally using SHAP values,"Shapley value theory (cooperative game theory axioms)
+TreeSHAP for tree models
+summary plots
+dependence plots
+individual prediction explanations",Professor
+Module 2: Core Machine Learning & Engineering,19,19.1,Neural Networks from First Principles,Build and understand neural networks from first principles,"Perceptron model
+activation functions (ReLU
+sigmoid
+tanh)
+multi-layer networks
+forward propagation
+backpropagation derivation from chain rule
+vanishing and exploding gradients
+universal approximation",Industry Mentor
+Module 2: Core Machine Learning & Engineering,19,19.2,PyTorch Essentials — Build & Train,Use PyTorch to build and train neural networks,"Tensor operations
+autograd
+nn.Module
+DataLoader
+training loop end-to-end
+SGD vs Adam optimizers
+dropout
+saving/loading model checkpoints",Industry Mentor
+Module 2: Core Machine Learning & Engineering,20,20.1,Neural Network Training Dynamics,Engineer and debug neural network training,"Batch normalization
+learning rate scheduling
+weight initialization
+TensorBoard debugging
+weight histogram analysis
+gradient anomaly detection",Industry Mentor
+Module 2: Core Machine Learning & Engineering,20,20.2,Model Deployment — FastAPI & Docker,Package and deploy ML models as REST APIs,"Dockerfile basics
+slim images
+dependency pinning
+multi-stage builds
+FastAPI inference endpoints
+POST handling
+batch vs real-time deployment patterns",Industry Mentor
+Module 2: Core Machine Learning & Engineering,21,21.1,MLOps — CI/CD & Drift Detection,Automate ML testing and deployment with drift monitoring,"GitHub Actions for ML
+automated ML tests
+staging vs production
+data drift
+concept drift detection with KS test and PSI
+retrain triggers
+production readiness checklist",Industry Mentor
+Module 2: Core Machine Learning & Engineering,21,21.2,Production Observability — Prometheus & Grafana,Monitor and observe deployed ML services in production,"Structured logging
+metrics collection
+Prometheus architecture
+Grafana dashboard demo
+SLA monitoring
+alerting on model and system anomalies",Industry Mentor
+Module 2: Core Machine Learning & Engineering,22,22.1,Recommender Systems,Build collaborative filtering and neural recommender models,"User-based and item-based collaborative filtering
+matrix factorization (SVD intuition)
+two-tower neural CF
+recommendation evaluation (HitRate
+NDCG)
+real-world examples (Netflix
+Spotify
+Amazon)",Industry Mentor
+Module 2: Core Machine Learning & Engineering,22,22.2,ML System Design Principles,Architect end-to-end ML systems at production scale,"End-to-end ML architecture
+feature stores
+training-serving skew prevention
+monitoring loops
+batch vs online inference tradeoffs
+system design interview framework",Industry Mentor
+,,,Evaluation / Buffer / Project,,,NA
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",23,23.1,Computer Vision — CNN Architecture,Build convolutional neural networks for image classification,"Convolution operation
+kernels/filters
+stride
+padding
+pooling layers
+feature maps; hands-on image classification (cats vs dogs CNN project)",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",23,23.2,Transfer Learning & Object Detection,Apply transfer learning and object detection with YOLO,"ResNet architecture (skip connections)
+torchvision fine-tuning
+YOLO architecture
+bounding boxes
+Intersection over Union (IoU)
+mean Average Precision (mAP)",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",24,24.1,"NLP Foundations — Tokenization, Embeddings & Sequential Data",Understand NLP pre-processing and embedding foundations,"Text tokenization (BPE
+WordPiece)
+Word2Vec
+GloVe
+word embeddings
+brief RNN/LSTM history for sequential context
+why transformers replaced them",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",24,24.2,Transformer Architecture — Attention is All You Need,Understand the transformer architecture powering modern NLP and LLMs,"Self-attention math
+Q/K/V derivation from scratch
+multi-head attention
+positional encoding
+encoder-decoder
+layer normalization",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",25,25.1,BERT & GPT with HuggingFace,Use BERT and GPT models for NLP tasks via HuggingFace,"BERT (bidirectional
+masked language modeling
+fine-tuning for classification)
+GPT (autoregressive
+causal masking)
+HuggingFace transformers pipeline API
+text classification hands-on",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",25,25.2,"LLM Evaluation — Metrics, Benchmarks & LLM-as-Judge",Evaluate LLM output quality using modern metrics and benchmarks,"BLEU
+ROUGE
+perplexity
+MMLU
+HellaSwag benchmarks
+LLM-as-judge pattern
+Ragas library
+human eval loops
+rubric-based evaluation",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",26,26.1,"LLM Fine-Tuning — LoRA, QLoRA & PEFT",Fine-tune LLMs efficiently using LoRA and PEFT techniques,"Why full fine-tuning is expensive
+LoRA low-rank adapters
+QLoRA 4-bit quantization
+PEFT library
+practical fine-tuning project",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",26,26.2,Prompt Engineering & Structured Output,Master prompt engineering and structured output techniques,"System/user roles
+temperature and top-p
+few-shot prompting
+chain-of-thought
+function calling
+JSON mode with Pydantic
+prompt injection defense",Professor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",27,27.1,Vector Databases & RAG Fundamentals,Build a Retrieval-Augmented Generation (RAG) system,"Vector stores (FAISS
+Chroma)
+text chunking strategies
+embedding-based retrieval
+FAQ bot project
+hallucination concept and grounding",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",27,27.2,Advanced RAG — Hybrid Search & Re-ranking,Improve RAG quality with hybrid search and re-ranking,"BM25 + dense hybrid retrieval
+cross-encoder re-ranking
+semantic chunking
+parent-child chunking
+query expansion
+Ragas metrics",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",28,28.1,"LLM Observability — LangSmith, Langfuse & W&B Weave",Monitor and evaluate LLM applications in production,"Trace inspection in LangSmith and Langfuse
+Weights & Biases Weave
+online evaluations
+eval-driven development workflow
+production LLM monitoring",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",28,28.2,"Advanced LLM Fine-Tuning — SFT, Instruction Tuning & DPO",Apply supervised fine-tuning and DPO for instruction-following LLMs,"Dataset curation for SFT
+instruction tuning format
+chat templates
+DPO (Direct Preference Optimization) as RLHF alternative
+practical DPO fine-tuning",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",29,29.1,"AI Agents — ReAct, Tool Calling & LangGraph",Build AI agents using tool calling and the ReAct pattern,"Agent architecture
+tool calling
+ReAct pattern (reason + act)
+LangGraph workflows
+conditional routing
+human-in-loop design",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",29,29.2,"Agent Memory, Multi-Agent Systems & Model Context Protocol (MCP)",Build production-grade multi-agent systems with memory and MCP integration,"Semantic and episodic memory with LangMem
+multi-agent orchestration with CrewAI
+sub-agent patterns
+MCP architecture
+MCP server/client implementation
+Claude Desktop/Cursor integration",Industry Mentor
+,,,Evaluation / Buffer / Project,,,
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",30,30.1,"Production LLM Applications — APIs, Streaming & Streamlit",Build interactive LLM-powered applications ready for deployment,"OpenAI and Anthropic API usage
+streaming responses
+Streamlit chatbot build
+conversation context management
+API error handling
+conversation logging",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",30,30.2,"LLM Production Patterns — Async, Prompt Caching & Cost Optimization",Apply production patterns to scale and optimize LLM applications,"Async API calls
+Anthropic and OpenAI prompt caching
+semantic caching
+cost calculation and tracking
+rate limiting
+A/B testing prompts",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",31,31.1,LLM Safety & Guardrails,Implement safety and guardrails for production LLM applications,"Jailbreak analysis
+toxic prompts
+safe completion strategies
+OpenAI moderation API
+guardrails-ai library
+red-teaming methodology
+logging and alerting",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",31,31.2,"AI Ethics, Fairness & Responsible AI",Understand and apply AI ethics and fairness principles,"Bias in ML models
+fairlearn library
+GDPR
+anonymization
+EU AI Act awareness
+audit checklists
+regulatory landscape",Professor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",32,32.1,Generative AI — Diffusion Models,Understand diffusion models and Stable Diffusion,"Diffusion process (forward and reverse denoising)
+Stable Diffusion
+LoRA for image fine-tuning
+GANs vs Diffusion comparison
+mode collapse awareness",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",32,32.2,Multimodal LLMs (Vision-Language Models),Build and evaluate multimodal AI applications,"CLIP contrastive objective
+vision-language models (Claude Sonnet 4 vision
+GPT-4o
+Gemini)
+practical image and text agents
+VLM evaluation
+modality fusion patterns",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",33,33.1,Reinforcement Learning Foundations,Understand RL foundations including MDPs and policy gradients,"MDP framework (states
+actions
+rewards
+transitions)
+Q-learning intuition
+reward shaping
+policy gradients overview
+PPO intuition
+Gymnasium environments",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",33,33.2,RLHF & ChatGPT Training Pipeline,Understand how modern LLMs are trained with RLHF,"Reward modeling
+PPO for language models
+alignment concepts
+ChatGPT training recipe
+Constitutional AI
+DPO as RLHF alternative",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",34,34.1,Capstone Project Kickoff & Architecture,Plan and architect a complete AI/ML capstone project,"Project scoping and requirements
+system architecture design
+dataset and tool selection
+milestone planning
+team or individual role setup",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",34,34.2,Capstone Project Work (Part 1) — Data & Pipeline,Build the data pipeline and initial model for the capstone,"Dataset ingestion and preprocessing
+feature engineering
+model or system selection
+initial implementation
+baseline evaluation",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",35,35.1,Capstone Project Work (Part 2) — Integration & Testing,Integrate and test the capstone system end-to-end,"Component integration
+end-to-end testing
+performance evaluation
+error analysis
+code quality review
+documentation draft",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",35,35.2,ML Interview Prep — System Design + Coding + Behavioral,Prepare for ML engineer interviews with system design and coding practice,"ML system design walkthrough (e.g.
+design Instagram feed
+fraud detection)
+coding interview patterns for ML
+behavioral STAR framework
+mock interview practice",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",36,36.1,Capstone Polish & Demo Preparation,Finalize capstone project and prepare a compelling presentation,"Demo refinement
+storytelling for technical presentations
+slide deck preparation
+viva Q&A practice
+GitHub repo polish",Industry Mentor
+"Module 3: Advanced AI: Deep Learning, NLP, LLMs & Emerging Trends",36,36.2,"Portfolio, Career Paths & Capstone Showcase","Build portfolio, explore career paths, and showcase capstone","Portfolio narrative
+resume building
+interview prep
+industry readiness
+ML career paths (ML Engineer
+Data Scientist
+MLOps
+AI Research)
+student capstone presentations",Industry Mentor
