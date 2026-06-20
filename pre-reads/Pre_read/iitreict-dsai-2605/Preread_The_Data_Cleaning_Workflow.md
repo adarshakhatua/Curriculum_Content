@@ -6,21 +6,21 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp;<br/>Data Foundations (Weeks 1–4)</b><br/><i>(Python, APIs)</i><br/>Python fundamentals and data handling])
-    C1[[Current Module Until Previous Session<br/><b>Module 2: Data Analysis with<br/>NumPy &amp; Pandas (Weeks 5–8)</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas, joins, transforms, text]]
+    P1(["Previous Module<br/><b>Module 1: Programming &amp;<br/>Data Foundations (Weeks 1–4)</b><br/><i>(Python, APIs)</i><br/>Python fundamentals and data handling"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2: Data Analysis with<br/>NumPy &amp; Pandas (Weeks 5–8)</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas, joins, transforms, text"]]
   end
 
   CS{{Current Session<br/><b>The Data Cleaning Workflow</b><br/><i>The gatekeeper of trustworthy data</i><br/>Missing values &middot; Duplicates &middot; Outliers &middot; Consistency}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Clean data powers every downstream skill</b><br/>SQL queries, statistical models, ML pipelines, and GenAI all depend on clean, reliable input data.])
-    RV([Real-Life Value<br/><b>Essential for every data role</b><br/>Industry surveys show data professionals spend 80% of their time cleaning — this session turns that chore into a repeatable superpower.])
+    CV(["Course Value<br/><b>Clean data powers every downstream skill</b><br/>SQL queries, statistical models, ML pipelines, and GenAI all depend on clean, reliable input data."])
+    RV(["Real-Life Value<br/><b>Essential for every data role</b><br/>Industry surveys show data professionals spend 80% of their time cleaning — this session turns that chore into a repeatable superpower."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3: SQL for Data<br/>Science (Weeks 9–12)</b><br/><i>(SQL, PostgreSQL)</i><br/>Query and manage relational databases])
-    F2([Upcoming Module<br/><b>Module 4: Statistics &amp;<br/>Data Visualization (Weeks 13–16)</b><br/><i>(Statistics, Seaborn)</i><br/>Statistical analysis and data storytelling])
-    F3([Upcoming Module<br/><b>Module 5: Applied Machine<br/>Learning (Weeks 17–20)</b><br/><i>(Scikit-learn, ML models)</i><br/>Build and evaluate predictive models])
+    F1(["Upcoming Module<br/><b>Module 3: SQL for Data<br/>Science (Weeks 9–12)</b><br/><i>(SQL, PostgreSQL)</i><br/>Query and manage relational databases"])
+    F2(["Upcoming Module<br/><b>Module 4: Statistics &amp;<br/>Data Visualization (Weeks 13–16)</b><br/><i>(Statistics, Seaborn)</i><br/>Statistical analysis and data storytelling"])
+    F3(["Upcoming Module<br/><b>Module 5: Applied Machine<br/>Learning (Weeks 17–20)</b><br/><i>(Scikit-learn, ML models)</i><br/>Build and evaluate predictive models"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

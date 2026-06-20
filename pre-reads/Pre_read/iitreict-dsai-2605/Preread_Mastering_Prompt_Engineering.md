@@ -6,21 +6,21 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL, Python-SQL integration)</i><br/>Queried relational databases for DS])
-    P2([Previous Module<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Seaborn, Hypothesis Testing)</i><br/>Mastered statistical reasoning and viz])
-    P3([Previous Module<br/><b>Module 5: Applied Machine Learning</b><br/><i>(Scikit-learn, Ensemble Methods)</i><br/>Built predictive models with sklearn])
+    P1(["Previous Module<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL, Python-SQL integration)</i><br/>Queried relational databases for DS"])
+    P2(["Previous Module<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Seaborn, Hypothesis Testing)</i><br/>Mastered statistical reasoning and viz"])
+    P3(["Previous Module<br/><b>Module 5: Applied Machine Learning</b><br/><i>(Scikit-learn, Ensemble Methods)</i><br/>Built predictive models with sklearn"])
     C1([[Current Module Until Previous Session<br/><b>Module 6: GenAI for Data Science</b><br/><i>(Foundation Models, Context Windows)</i><br/>Learnt LLM fundamentals and tokenization]])
   end
 
   CS({{Current Session<br/><b>Mastering Prompt Engineering</b><br/><i>From consumer to engineer of AI</i><br/>Zero-shot · Few-shot · Chain-of-thought · Role prompting · Temperature}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Unlocks all GenAI sessions ahead</b><br/>Mastering prompt engineering is the gateway skill for every subsequent session in this module — from handling LLM edge cases and integrating with the OpenAI API to building RAG systems and AI-powered applications.])
-    RV([Real-Life Value<br/><b>Your daily AI collaboration skill</b><br/>Prompt engineering is the most immediately applicable GenAI skill in the workplace — whether you are automating report generation, building chatbots, extracting insights from documents, or supercharging your data analysis workflow with AI assistance.])
+    CV(["Course Value<br/><b>Unlocks all GenAI sessions ahead</b><br/>Mastering prompt engineering is the gateway skill for every subsequent session in this module — from handling LLM edge cases and integrating with the OpenAI API to building RAG systems and AI-powered applications."])
+    RV(["Real-Life Value<br/><b>Your daily AI collaboration skill</b><br/>Prompt engineering is the most immediately applicable GenAI skill in the workplace — whether you are automating report generation, building chatbots, extracting insights from documents, or supercharging your data analysis workflow with AI assistance."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Capstone Project</b><br/><i>(End-to-end pipeline, Final dashboard)</i><br/>Build and present a complete DS solution])
+    F1(["Upcoming Module<br/><b>Capstone Project</b><br/><i>(End-to-end pipeline, Final dashboard)</i><br/>Build and present a complete DS solution"])
   end
 
   P1 ==>|&nbsp;Stats &amp; Viz&nbsp;| P2

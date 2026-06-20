@@ -6,22 +6,22 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, CSV/JSON)</i><br/>Core Python, data formats, and APIs])
-    P2([Previous Module<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy arrays, DataFrames, and EDA])
-    C1[[Current Module Until Previous Session<br/><b>Module 3: SQL for Data Science</b><br/><i>(Relational DBs, Keys/Schema)</i><br/>Tables, keys, and schema design fundamentals]]
+    P1(["Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, CSV/JSON)</i><br/>Core Python, data formats, and APIs"])
+    P2(["Previous Module<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy arrays, DataFrames, and EDA"])
+    C1[["Current Module Until Previous Session<br/><b>Module 3: SQL for Data Science</b><br/><i>(Relational DBs, Keys/Schema)</i><br/>Tables, keys, and schema design fundamentals"]]
   end
 
   CS{{Current Session<br/><b>Basic SQL Querying</b><br/><i>From storage to retrieval</i><br/>SELECT &middot; WHERE &middot; DISTINCT &middot; LIMIT &middot; ORDER BY &middot; logical operators}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Foundation for every SQL skill</b><br/>Mastering SQL querying is the prerequisite for joins, aggregations, window functions, and Python-SQL integration.])
-    RV([Real-Life Value<br/><b>The universal language of data</b><br/>Every data professional uses SQL daily to extract and explore data from production databases.])
+    CV(["Course Value<br/><b>Foundation for every SQL skill</b><br/>Mastering SQL querying is the prerequisite for joins, aggregations, window functions, and Python-SQL integration."])
+    RV(["Real-Life Value<br/><b>The universal language of data</b><br/>Every data professional uses SQL daily to extract and explore data from production databases."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Descriptive Stats, BI Tools)</i><br/>Statistical analysis, hypothesis testing, and dashboards])
-    F2([Upcoming Module<br/><b>Module 5: Applied Machine Learning</b><br/><i>(Scikit-learn, Regression)</i><br/>Linear models, ensemble methods, and ML pipelines])
-    F3([Upcoming Module<br/><b>Module 6: GenAI for Data Science</b><br/><i>(LLMs, OpenAI API)</i><br/>Prompt engineering, RAG, and AI-powered analytics])
+    F1(["Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Descriptive Stats, BI Tools)</i><br/>Statistical analysis, hypothesis testing, and dashboards"])
+    F2(["Upcoming Module<br/><b>Module 5: Applied Machine Learning</b><br/><i>(Scikit-learn, Regression)</i><br/>Linear models, ensemble methods, and ML pipelines"])
+    F3(["Upcoming Module<br/><b>Module 6: GenAI for Data Science</b><br/><i>(LLMs, OpenAI API)</i><br/>Prompt engineering, RAG, and AI-powered analytics"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

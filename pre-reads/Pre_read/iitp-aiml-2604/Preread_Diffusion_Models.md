@@ -6,20 +6,20 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy/Pandas)</i><br/>Foundations through classical ML])
-    P2([Previous Module<br/><b>Module 2</b><br/><i>(Scikit-learn, PyTorch)</i><br/>Classical ML to deep learning])
-    C1[[Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNNs, Transformers, GANs)</i><br/>Full pipeline through GAN architectures]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy/Pandas)</i><br/>Foundations through classical ML"])
+    P2(["Previous Module<br/><b>Module 2</b><br/><i>(Scikit-learn, PyTorch)</i><br/>Classical ML to deep learning"])
+    C1[["Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNNs, Transformers, GANs)</i><br/>Full pipeline through GAN architectures"]]
   end
 
   CS{{Current Session<br/><b>Diffusion Models</b><br/><i>From discriminative to generative</i><br/>Forward noise · Reverse denoising · UNet}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Unlocks Production AI</b><br/>Mastering diffusion prepares you for Stable Diffusion, production deployment, and multimodal systems in the remaining sessions.])
-    RV([Real-Life Value<br/><b>Power Gen-AI Tools</b><br/>Diffusion models drive Midjourney, DALL·E, and the wave of generative tools transforming creative industries.])
+    CV(["Course Value<br/><b>Unlocks Production AI</b><br/>Mastering diffusion prepares you for Stable Diffusion, production deployment, and multimodal systems in the remaining sessions."])
+    RV(["Real-Life Value<br/><b>Power Gen-AI Tools</b><br/>Diffusion models drive Midjourney, DALL·E, and the wave of generative tools transforming creative industries."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3 Remaining</b><br/><i>(Stable Diffusion, Production AI, Multimodal)</i><br/>Production deployment and multimodal systems])
+    F1(["Upcoming Module<br/><b>Module 3 Remaining</b><br/><i>(Stable Diffusion, Production AI, Multimodal)</i><br/>Production deployment and multimodal systems"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

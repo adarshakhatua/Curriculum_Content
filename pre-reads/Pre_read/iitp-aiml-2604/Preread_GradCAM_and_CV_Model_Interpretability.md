@@ -6,20 +6,20 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, scikit-learn)</i><br/>Programming and ML foundations])
-    P2([Previous Module<br/><b>Module 2</b><br/><i>(PyTorch, scikit-learn)</i><br/>ML to deep learning transition])
-    C1[[Current Module Until Previous Session<br/><b>Module 3 (Sessions 20.1–22.2)</b><br/><i>(PyTorch, OpenCV)</i><br/>CNNs, detection, segmentation, OpenCV]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, scikit-learn)</i><br/>Programming and ML foundations"])
+    P2(["Previous Module<br/><b>Module 2</b><br/><i>(PyTorch, scikit-learn)</i><br/>ML to deep learning transition"])
+    C1[["Current Module Until Previous Session<br/><b>Module 3 (Sessions 20.1–22.2)</b><br/><i>(PyTorch, OpenCV)</i><br/>CNNs, detection, segmentation, OpenCV"]]
   end
 
   CS{{Current Session<br/><b>Grad-CAM &amp; CV Model Interpretability</b><br/><i>From black box to glass box</i><br/>Grad-CAM · occlusion sensitivity · failure analysis · responsible AI}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Diagnose any deep learning model</b><br/>Interpretability gives you the diagnostic skills to debug and validate not just CNNs but every architecture you build ahead.])
-    RV([Real-Life Value<br/><b>Explain vision model decisions</b><br/>In regulated industries — healthcare, finance, autonomous driving — you cannot deploy a model without justifying its predictions.])
+    CV(["Course Value<br/><b>Diagnose any deep learning model</b><br/>Interpretability gives you the diagnostic skills to debug and validate not just CNNs but every architecture you build ahead."])
+    RV(["Real-Life Value<br/><b>Explain vision model decisions</b><br/>In regulated industries — healthcare, finance, autonomous driving — you cannot deploy a model without justifying its predictions."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3 (Remaining)</b><br/><i>(Transformers, LangChain)</i><br/>NLP, generative AI, production deployment])
+    F1(["Upcoming Module<br/><b>Module 3 (Remaining)</b><br/><i>(Transformers, LangChain)</i><br/>NLP, generative AI, production deployment"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

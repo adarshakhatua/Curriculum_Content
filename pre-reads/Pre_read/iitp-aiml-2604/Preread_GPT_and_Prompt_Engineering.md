@@ -6,20 +6,20 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, Pandas, Scikit-learn)</i><br/>Programming and ML foundations])
-    P2([Previous Module<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost, PyTorch)</i><br/>Classical ML to deep learning])
-    C1[[Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNNs, Transformers, BERT)</i><br/>CV · NLP · self-attention · Transformers · BERT]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, Pandas, Scikit-learn)</i><br/>Programming and ML foundations"])
+    P2(["Previous Module<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost, PyTorch)</i><br/>Classical ML to deep learning"])
+    C1[["Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNNs, Transformers, BERT)</i><br/>CV · NLP · self-attention · Transformers · BERT"]]
   end
 
   CS({{Current Session<br/><b>GPT &amp; Prompt Engineering</b><br/><i>From architecture to interaction</i><br/>Autoregressive decoding · Sampling strategies · Prompting patterns · Structured output}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Foundation for LLM mastery</b><br/>Unlocks fine-tuning, RAG, AI agents,<br/>and all downstream LLM content.])
-    RV([Real-Life Value<br/><b>Build AI-powered products</b><br/>Craft effective prompts, control LLM<br/>output, and integrate GPT into applications.])
+    CV(["Course Value<br/><b>Foundation for LLM mastery</b><br/>Unlocks fine-tuning, RAG, AI agents,<br/>and all downstream LLM content."])
+    RV(["Real-Life Value<br/><b>Build AI-powered products</b><br/>Craft effective prompts, control LLM<br/>output, and integrate GPT into applications."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3</b><br/><i>(LoRA, RAG, AI Agents)</i><br/>Fine-tuning · retrieval · agents · deployment])
+    F1(["Upcoming Module<br/><b>Module 3</b><br/><i>(LoRA, RAG, AI Agents)</i><br/>Fine-tuning · retrieval · agents · deployment"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

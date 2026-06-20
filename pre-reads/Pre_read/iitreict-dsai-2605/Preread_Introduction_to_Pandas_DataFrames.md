@@ -6,21 +6,21 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp; Data Foundations (Weeks 1-4)</b><br/><i>(Python, APIs)</i><br/>Python programming and API data fetching])
-    C1[[Current Module Until Previous Session<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas (Weeks 5-8)</b><br/><i>(NumPy, Vectorization)</i><br/>NumPy arrays, vectorized ops, linear algebra]]
+    P1(["Previous Module<br/><b>Module 1: Programming &amp; Data Foundations (Weeks 1-4)</b><br/><i>(Python, APIs)</i><br/>Python programming and API data fetching"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas (Weeks 5-8)</b><br/><i>(NumPy, Vectorization)</i><br/>NumPy arrays, vectorized ops, linear algebra"]]
   end
 
   CS{{Current Session<br/><b>Introduction to Pandas DataFrames</b><br/><i>From numbers to tables — the data scientist's workspace</i><br/>Pandas Core · Series vs DataFrames · Read CSV/Excel · Basic Inspection}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Foundation for all data analysis</b><br/>Pandas DataFrames power every subsequent module — SQL, statistics, ML, and GenAI all rely on DataFrame skills.])
-    RV([Real-Life Value<br/><b>The industry standard for data work</b><br/>Pandas is the most-used Python library in data science — reading CSV/Excel into DataFrames is the first skill employers expect.])
+    CV(["Course Value<br/><b>Foundation for all data analysis</b><br/>Pandas DataFrames power every subsequent module — SQL, statistics, ML, and GenAI all rely on DataFrame skills."])
+    RV(["Real-Life Value<br/><b>The industry standard for data work</b><br/>Pandas is the most-used Python library in data science — reading CSV/Excel into DataFrames is the first skill employers expect."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3: SQL for Data Science (Weeks 9-12)</b><br/><i>(SQL, Databases)</i><br/>Querying and combining datasets])
-    F2([Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization (Weeks 13-16)</b><br/><i>(Statistics, Visualization)</i><br/>Describing and visualizing data])
-    F3([Upcoming Module<br/><b>Modules 5 &amp; 6: Applied ML &amp; GenAI (Weeks 17-24)</b><br/><i>(Scikit-learn, LLMs)</i><br/>Predictive models and AI applications])
+    F1(["Upcoming Module<br/><b>Module 3: SQL for Data Science (Weeks 9-12)</b><br/><i>(SQL, Databases)</i><br/>Querying and combining datasets"])
+    F2(["Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization (Weeks 13-16)</b><br/><i>(Statistics, Visualization)</i><br/>Describing and visualizing data"])
+    F3(["Upcoming Module<br/><b>Modules 5 &amp; 6: Applied ML &amp; GenAI (Weeks 17-24)</b><br/><i>(Scikit-learn, LLMs)</i><br/>Predictive models and AI applications"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

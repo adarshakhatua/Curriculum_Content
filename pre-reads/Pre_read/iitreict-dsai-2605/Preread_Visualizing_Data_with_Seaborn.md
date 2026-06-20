@@ -6,21 +6,21 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, APIs)</i><br/>Core programming &amp; data fetching])
+    P1(["Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, APIs)</i><br/>Core programming &amp; data fetching"])
     C1([[Current Module Until Previous Session<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas, cleaning, EDA concepts]])
   end
 
   CS({{Current Session<br/><b>Visualizing Data with Seaborn</b><br/><i>From tables to visual insight</i><br/>Statistical plots · scatter plots · histograms · heatmaps}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Visualization unlocks deeper analysis</b><br/>Seaborn is the bridge between cleaned data and the statistical/ML modeling that follows in Modules 4 &amp; 5.])
-    RV([Real-Life Value<br/><b>Communicate insights visually</b><br/>Data scientists use Seaborn daily to explore datasets and present findings to stakeholders who think in pictures, not numbers.])
+    CV(["Course Value<br/><b>Visualization unlocks deeper analysis</b><br/>Seaborn is the bridge between cleaned data and the statistical/ML modeling that follows in Modules 4 &amp; 5."])
+    RV(["Real-Life Value<br/><b>Communicate insights visually</b><br/>Data scientists use Seaborn daily to explore datasets and present findings to stakeholders who think in pictures, not numbers."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL, Databases)</i><br/>Query and join relational data])
-    F2([Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Statistics, BI Tools)</i><br/>Statistical reasoning &amp; dashboards])
-    F3([Upcoming Module<br/><b>Modules 5 &amp; 6: ML &amp; GenAI</b><br/><i>(Scikit-learn, LLMs)</i><br/>Predictive modeling &amp; AI applications])
+    F1(["Upcoming Module<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL, Databases)</i><br/>Query and join relational data"])
+    F2(["Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Statistics, BI Tools)</i><br/>Statistical reasoning &amp; dashboards"])
+    F3(["Upcoming Module<br/><b>Modules 5 &amp; 6: ML &amp; GenAI</b><br/><i>(Scikit-learn, LLMs)</i><br/>Predictive modeling &amp; AI applications"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

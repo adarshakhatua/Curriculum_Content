@@ -6,21 +6,21 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp;<br/>Data Foundations</b><br/><i>(Python, REST APIs)</i><br/>Foundational Python and data fetching])
-    C1[[Current Module Until Previous Session<br/><b>Module 2: Data Analysis<br/>with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas, selection, grouping, joins]]
+    P1(["Previous Module<br/><b>Module 1: Programming &amp;<br/>Data Foundations</b><br/><i>(Python, REST APIs)</i><br/>Foundational Python and data fetching"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2: Data Analysis<br/>with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas, selection, grouping, joins"]]
   end
 
   CS{{Current Session<br/><b>Advanced Data Transformation</b><br/><i>Think in transformations, not loops</i><br/>Apply · Map · Replace · Pivot · Melt · Date/Time}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Foundation for all data prep</b><br/>These Pandas skills are the bedrock of data preparation in every subsequent module — SQL, ML, and GenAI.])
-    RV([Real-Life Value<br/><b>Clean data drives decisions</b><br/>Data professionals spend most of their time transforming data; these operations are used daily in industry.])
+    CV(["Course Value<br/><b>Foundation for all data prep</b><br/>These Pandas skills are the bedrock of data preparation in every subsequent module — SQL, ML, and GenAI."])
+    RV(["Real-Life Value<br/><b>Clean data drives decisions</b><br/>Data professionals spend most of their time transforming data; these operations are used daily in industry."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3: SQL for<br/>Data Science</b><br/><i>(SQL, PostgreSQL)</i><br/>Relational databases and complex queries])
-    F2([Upcoming Module<br/><b>Module 4: Statistics &amp;<br/>Data Visualization</b><br/><i>(Statistics, Seaborn)</i><br/>Descriptive stats and visual storytelling])
-    F3([Upcoming Module<br/><b>Modules 5 &amp; 6: ML &amp; GenAI</b><br/><i>(Scikit-learn, LLMs)</i><br/>Predictive models and AI-powered apps])
+    F1(["Upcoming Module<br/><b>Module 3: SQL for<br/>Data Science</b><br/><i>(SQL, PostgreSQL)</i><br/>Relational databases and complex queries"])
+    F2(["Upcoming Module<br/><b>Module 4: Statistics &amp;<br/>Data Visualization</b><br/><i>(Statistics, Seaborn)</i><br/>Descriptive stats and visual storytelling"])
+    F3(["Upcoming Module<br/><b>Modules 5 &amp; 6: ML &amp; GenAI</b><br/><i>(Scikit-learn, LLMs)</i><br/>Predictive models and AI-powered apps"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

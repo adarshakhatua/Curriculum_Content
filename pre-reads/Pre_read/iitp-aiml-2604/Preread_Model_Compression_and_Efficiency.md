@@ -6,19 +6,19 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy, Scikit-learn)</i><br/>Programming, data wrangling, and ML foundations])
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy, Scikit-learn)</i><br/>Programming, data wrangling, and ML foundations"])
     C1([[Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost, PCA)</i><br/>Supervised classifiers, clustering, dimensionality reduction, optimisation]])
   end
 
   CS({{Current Session<br/><b>Model Compression &amp; Efficiency</b><br/><i>Think small, deploy big</i><br/>Pruning · Distillation · Quantisation · Benchmarking}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Enables efficient deep learning deployment</b><br/>Mastering compression prepares you to deploy the neural networks and LLMs built in Module 3 at production scale.])
-    RV([Real-Life Value<br/><b>Ship AI to phones and edge devices</b><br/>Companies use these techniques to run large models on consumer hardware and serve millions of predictions at minimal cloud cost.])
+    CV(["Course Value<br/><b>Enables efficient deep learning deployment</b><br/>Mastering compression prepares you to deploy the neural networks and LLMs built in Module 3 at production scale."])
+    RV(["Real-Life Value<br/><b>Ship AI to phones and edge devices</b><br/>Companies use these techniques to run large models on consumer hardware and serve millions of predictions at minimal cloud cost."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, Transformers, LangChain)</i><br/>Deep learning, NLP, LLMs, and production AI systems])
+    F1(["Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, Transformers, LangChain)</i><br/>Deep learning, NLP, LLMs, and production AI systems"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

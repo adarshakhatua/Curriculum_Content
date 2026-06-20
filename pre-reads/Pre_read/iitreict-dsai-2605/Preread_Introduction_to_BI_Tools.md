@@ -6,22 +6,22 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>M1: Programming &amp; Data Foundations</b><br/><i>(Python, APIs/REST)</i><br/>Core programming and data ingestion])
-    P2([Previous Module<br/><b>M2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>Data manipulation and cleaning pipelines])
-    P3([Previous Module<br/><b>M3: SQL for Data Science</b><br/><i>(SQL, Databases)</i><br/>Relational queries and data joins])
-    C1[[Current Module Until Previous Session<br/><b>M4: Statistics &amp; Data Visualization</b><br/><i>(Statistics, Seaborn)</i><br/>Stats, probability, hypothesis testing, visual storytelling]]
+    P1(["Previous Module<br/><b>M1: Programming &amp; Data Foundations</b><br/><i>(Python, APIs/REST)</i><br/>Core programming and data ingestion"])
+    P2(["Previous Module<br/><b>M2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>Data manipulation and cleaning pipelines"])
+    P3(["Previous Module<br/><b>M3: SQL for Data Science</b><br/><i>(SQL, Databases)</i><br/>Relational queries and data joins"])
+    C1[["Current Module Until Previous Session<br/><b>M4: Statistics &amp; Data Visualization</b><br/><i>(Statistics, Seaborn)</i><br/>Stats, probability, hypothesis testing, visual storytelling"]]
   end
 
   CS{{Current Session<br/><b>Introduction to BI Tools</b><br/><i>From static plots to interactive dashboards</i><br/>Tableau · PowerBI · Data connections · Tool interface}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Unlocks dashboard-driven insights</b><br/>BI tools transform your analytical skills into interactive dashboards that stakeholders can explore, directly preparing you for model deployment in Module 5 and the Capstone's final interface.])
-    RV([Real-Life Value<br/><b>Real-time business intelligence</b><br/>Every organization monitors KPIs via dashboards — you will connect live data sources and build reports that executives and clients rely on daily.])
+    CV(["Course Value<br/><b>Unlocks dashboard-driven insights</b><br/>BI tools transform your analytical skills into interactive dashboards that stakeholders can explore, directly preparing you for model deployment in Module 5 and the Capstone's final interface."])
+    RV(["Real-Life Value<br/><b>Real-time business intelligence</b><br/>Every organization monitors KPIs via dashboards — you will connect live data sources and build reports that executives and clients rely on daily."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>M5: Applied Machine Learning</b><br/><i>(Scikit-learn, ML Models)</i><br/>Predictive modeling and model evaluation])
-    F2([Upcoming Module<br/><b>M6: GenAI for Data Science</b><br/><i>(LLMs, RAG/Vector DBs)</i><br/>Large language models and AI applications])
+    F1(["Upcoming Module<br/><b>M5: Applied Machine Learning</b><br/><i>(Scikit-learn, ML Models)</i><br/>Predictive modeling and model evaluation"])
+    F2(["Upcoming Module<br/><b>M6: GenAI for Data Science</b><br/><i>(LLMs, RAG/Vector DBs)</i><br/>Large language models and AI applications"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

@@ -6,21 +6,21 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, APIs/JSON)</i><br/>Python fundamentals &amp; data ingestion])
-    C1[[Current Module Until Previous Session<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy arrays, vectorized ops, Pandas basics]]
+    P1(["Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, APIs/JSON)</i><br/>Python fundamentals &amp; data ingestion"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy arrays, vectorized ops, Pandas basics"]]
   end
 
   CS({{Current Session<br/><b>Data Selection &amp; Filtering</b><br/><i>Ask precise questions of your data</i><br/>Boolean indexing · .loc · .iloc · multiple conditions}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Filtering powers every data task ahead</b><br/>Selecting the right rows and columns is the foundational skill for SQL queries, statistical analysis, ML feature selection, and GenAI pipelines.])
-    RV([Real-Life Value<br/><b>Find answers in any dataset instantly</b><br/>Every real-world analysis begins with isolating the right subset — customer segments, time-windowed trends, or high-value leads.])
+    CV(["Course Value<br/><b>Filtering powers every data task ahead</b><br/>Selecting the right rows and columns is the foundational skill for SQL queries, statistical analysis, ML feature selection, and GenAI pipelines."])
+    RV(["Real-Life Value<br/><b>Find answers in any dataset instantly</b><br/>Every real-world analysis begins with isolating the right subset — customer segments, time-windowed trends, or high-value leads."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL, Databases)</i><br/>Relational queries &amp; data retrieval])
-    F2([Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Statistics, Seaborn/Tableau)</i><br/>Statistical analysis &amp; dashboards])
-    F3([Upcoming Module<br/><b>Modules 5 &amp; 6: ML &amp; GenAI</b><br/><i>(Scikit-learn, LLMs)</i><br/>Predictive modeling &amp; AI])
+    F1(["Upcoming Module<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL, Databases)</i><br/>Relational queries &amp; data retrieval"])
+    F2(["Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Statistics, Seaborn/Tableau)</i><br/>Statistical analysis &amp; dashboards"])
+    F3(["Upcoming Module<br/><b>Modules 5 &amp; 6: ML &amp; GenAI</b><br/><i>(Scikit-learn, LLMs)</i><br/>Predictive modeling &amp; AI"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

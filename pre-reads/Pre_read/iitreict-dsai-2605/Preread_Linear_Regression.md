@@ -6,22 +6,22 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>Numeric computation and data wrangling])
-    P2([Previous Module<br/><b>SQL for Data Science</b><br/><i>(SQL, SQLite)</i><br/>Relational databases and business queries])
-    P3([Previous Module<br/><b>Statistics &amp; Data Visualization</b><br/><i>(Seaborn, Tableau)</i><br/>Statistical inference and BI dashboards])
-    C1[[Current Module Until Previous Session<br/><b>Applied Machine Learning</b><br/><i>(Scikit-learn, ML concepts)</i><br/>ML lifecycle, supervised vs unsupervised]]
+    P1(["Previous Module<br/><b>Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>Numeric computation and data wrangling"])
+    P2(["Previous Module<br/><b>SQL for Data Science</b><br/><i>(SQL, SQLite)</i><br/>Relational databases and business queries"])
+    P3(["Previous Module<br/><b>Statistics &amp; Data Visualization</b><br/><i>(Seaborn, Tableau)</i><br/>Statistical inference and BI dashboards"])
+    C1[["Current Module Until Previous Session<br/><b>Applied Machine Learning</b><br/><i>(Scikit-learn, ML concepts)</i><br/>ML lifecycle, supervised vs unsupervised"]]
   end
 
   CS{{Current Session<br/><b>Linear Regression</b><br/><i>From describing data to predicting outcomes</i><br/>Simple · Multiple · Least Squares · MSE · R²}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Foundation for all supervised learning</b><br/>Linear Regression builds the mental model of learning from labeled data that every future ML algorithm extends and refines.])
-    RV([Real-Life Value<br/><b>Everyday prediction in industry</b><br/>From real estate pricing and sales forecasting to financial risk modeling, linear regression is the first tool analysts reach for when they need to predict a continuous number.])
+    CV(["Course Value<br/><b>Foundation for all supervised learning</b><br/>Linear Regression builds the mental model of learning from labeled data that every future ML algorithm extends and refines."])
+    RV(["Real-Life Value<br/><b>Everyday prediction in industry</b><br/>From real estate pricing and sales forecasting to financial risk modeling, linear regression is the first tool analysts reach for when they need to predict a continuous number."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>GenAI for Data Science</b><br/><i>(LLMs, RAG)</i><br/>Large language models and retrieval-augmented generation])
-    F2([Upcoming Module<br/><b>Capstone Project</b><br/><i>(Full stack ML, Streamlit)</i><br/>End-to-end solution design and delivery])
+    F1(["Upcoming Module<br/><b>GenAI for Data Science</b><br/><i>(LLMs, RAG)</i><br/>Large language models and retrieval-augmented generation"])
+    F2(["Upcoming Module<br/><b>Capstone Project</b><br/><i>(Full stack ML, Streamlit)</i><br/>End-to-end solution design and delivery"])
   end
 
   P1 ==>|&nbsp;Data Wrangling&nbsp;| P2

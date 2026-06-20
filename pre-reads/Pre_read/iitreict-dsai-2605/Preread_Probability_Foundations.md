@@ -6,22 +6,22 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, REST APIs)</i><br/>Core programming and data ingestion])
-    P2([Previous Module<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>Numeric computation and analysis])
-    P3([Previous Module<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL, Window Functions)</i><br/>Relational databases and queries])
+    P1(["Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, REST APIs)</i><br/>Core programming and data ingestion"])
+    P2(["Previous Module<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>Numeric computation and analysis"])
+    P3(["Previous Module<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL, Window Functions)</i><br/>Relational databases and queries"])
     C1([[Current Module Until Previous Session<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Descriptive Stats, Statistical Measures)</i><br/>Mean, median, variance, skewness, kurtosis]])
   end
 
   CS({{Current Session<br/><b>Probability Foundations</b><br/><i>Thinking in uncertainties</i><br/>Basic probability · Conditional probability · Bayes Theorem · AI applications}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Unlocks predictive modeling</b><br/>Probability provides the mathematical backbone for machine learning algorithms in Module 5.])
-    RV([Real-Life Value<br/><b>Data-driven decisions</b><br/>From spam filters to medical diagnosis, probability powers real-world AI systems.])
+    CV(["Course Value<br/><b>Unlocks predictive modeling</b><br/>Probability provides the mathematical backbone for machine learning algorithms in Module 5."])
+    RV(["Real-Life Value<br/><b>Data-driven decisions</b><br/>From spam filters to medical diagnosis, probability powers real-world AI systems."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 5: Applied Machine Learning</b><br/><i>(Scikit-learn, Regression)</i><br/>Building predictive models from data])
-    F2([Upcoming Module<br/><b>Module 6: GenAI for Data Science</b><br/><i>(LLMs, Prompt Engineering)</i><br/>Large language model applications])
+    F1(["Upcoming Module<br/><b>Module 5: Applied Machine Learning</b><br/><i>(Scikit-learn, Regression)</i><br/>Building predictive models from data"])
+    F2(["Upcoming Module<br/><b>Module 6: GenAI for Data Science</b><br/><i>(LLMs, Prompt Engineering)</i><br/>Large language model applications"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

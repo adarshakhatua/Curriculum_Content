@@ -6,19 +6,19 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy, Scikit-learn)</i><br/>Python, data wrangling, statistics, ML pipelines])
-    C1[[Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(KNN, SVM, Naive Bayes, Decision Trees)</i><br/>Distance-based, probabilistic, and tree classifiers]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy, Scikit-learn)</i><br/>Python, data wrangling, statistics, ML pipelines"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(KNN, SVM, Naive Bayes, Decision Trees)</i><br/>Distance-based, probabilistic, and tree classifiers"]]
   end
 
-  CS{{Current Session<br/><b>Random Forests</b><br/><i>From single trees to collective intelligence</i><br/>Bagging &middot; Feature subsampling &middot; OOB score &middot; Feature importance}}
+  CS{{"Current Session<br/><b>Random Forests</b><br/><i>From single trees to collective intelligence</i><br/>Bagging &middot; Feature subsampling &middot; OOB score &middot; Feature importance"}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Ensemble methods unlock advanced models</b><br/>Random Forests introduce the ensemble paradigm essential for XGBoost, LightGBM, and all Module 3 deep learning.])
-    RV([Real-Life Value<br/><b>Industry-standard for tabular predictions</b><br/>Random Forests are deployed daily in finance, healthcare, and e-commerce for reliable, interpretable predictions.])
+    CV(["Course Value<br/><b>Ensemble methods unlock advanced models</b><br/>Random Forests introduce the ensemble paradigm essential for XGBoost, LightGBM, and all Module 3 deep learning."])
+    RV(["Real-Life Value<br/><b>Industry-standard for tabular predictions</b><br/>Random Forests are deployed daily in finance, healthcare, and e-commerce for reliable, interpretable predictions."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3</b><br/><i>(CNNs, Transformers, LLMs, GANs)</i><br/>Deep learning, NLP, CV, generative AI])
+    F1(["Upcoming Module<br/><b>Module 3</b><br/><i>(CNNs, Transformers, LLMs, GANs)</i><br/>Deep learning, NLP, CV, generative AI"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

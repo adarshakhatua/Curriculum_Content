@@ -6,19 +6,19 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, Scikit-learn)</i><br/>Python, data wrangling, statistics, ML pipelines])
-    C1[[Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(KNN, XGBoost, LightGBM)</i><br/>Distance-based, probabilistic, tree, ensemble, gradient boosting classifiers]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, Scikit-learn)</i><br/>Python, data wrangling, statistics, ML pipelines"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(KNN, XGBoost, LightGBM)</i><br/>Distance-based, probabilistic, tree, ensemble, gradient boosting classifiers"]]
   end
 
   CS{{Current Session<br/><b>Hyperparameter Tuning</b><br/><i>Systematic optimisation mindset</i><br/>GridSearchCV · RandomizedSearchCV · Optuna · search spaces · interpreting results}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Unlocks model performance mastery</b><br/>Mastering hyperparameter tuning lets you systematically improve every model you build from KNN to neural networks, transforming default configurations into optimised solutions.])
-    RV([Real-Life Value<br/><b>Turns intuition into precision</b><br/>In production ML, tuned hyperparameters regularly boost accuracy by 5–20%, turning good-enough models into deployable, competitive systems.])
+    CV(["Course Value<br/><b>Unlocks model performance mastery</b><br/>Mastering hyperparameter tuning lets you systematically improve every model you build from KNN to neural networks, transforming default configurations into optimised solutions."])
+    RV(["Real-Life Value<br/><b>Turns intuition into precision</b><br/>In production ML, tuned hyperparameters regularly boost accuracy by 5–20%, turning good-enough models into deployable, competitive systems."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, HuggingFace)</i><br/>Deep learning, NLP, CV, generative AI])
+    F1(["Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, HuggingFace)</i><br/>Deep learning, NLP, CV, generative AI"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

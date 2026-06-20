@@ -6,19 +6,19 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, Scikit-learn)</i><br/>Foundations in Python and ML libraries])
-    C1[[Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, Ensemble Methods)</i><br/>Classifiers, clustering, dimensionality reduction]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, Scikit-learn)</i><br/>Foundations in Python and ML libraries"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, Ensemble Methods)</i><br/>Classifiers, clustering, dimensionality reduction"]]
   end
 
   CS{{Current Session<br/><b>Advanced Optimisers &amp; Training Techniques</b><br/><i>Choosing an optimiser is a strategic decision</i><br/>Momentum &amp;#183; Adam &amp;#183; AdamW &amp;#183; Gradient Clipping &amp;#183; Mixed Precision}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Foundation for Training Deep Networks</b><br/>Mastering advanced optimisers equips you to train deep neural networks — from CNNs to Transformers and LLMs — with stability and speed.])
-    RV([Real-Life Value<br/><b>Production-Ready Training Pipelines</b><br/>ML engineers use momentum, AdamW, gradient clipping, and mixed precision to accelerate training, prevent divergence, and reduce memory costs.])
+    CV(["Course Value<br/><b>Foundation for Training Deep Networks</b><br/>Mastering advanced optimisers equips you to train deep neural networks — from CNNs to Transformers and LLMs — with stability and speed."])
+    RV(["Real-Life Value<br/><b>Production-Ready Training Pipelines</b><br/>ML engineers use momentum, AdamW, gradient clipping, and mixed precision to accelerate training, prevent divergence, and reduce memory costs."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3</b><br/><i>(CNNs, Transformers)</i><br/>Deep learning, NLP, and generative AI])
+    F1(["Upcoming Module<br/><b>Module 3</b><br/><i>(CNNs, Transformers)</i><br/>Deep learning, NLP, and generative AI"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

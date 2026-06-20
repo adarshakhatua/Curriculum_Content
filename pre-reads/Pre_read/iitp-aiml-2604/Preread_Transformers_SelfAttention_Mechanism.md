@@ -6,16 +6,16 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, scikit-learn)</i><br/>Foundations: programming and ML basics])
-    P2([Previous Module<br/><b>Module 2</b><br/><i>(scikit-learn, PyTorch)</i><br/>Classical ML through neural networks])
-    C1[[Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNN, LSTM/GRU)</i><br/>CV pipelines, RNNs, embeddings, LSTMs]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, scikit-learn)</i><br/>Foundations: programming and ML basics"])
+    P2(["Previous Module<br/><b>Module 2</b><br/><i>(scikit-learn, PyTorch)</i><br/>Classical ML through neural networks"])
+    C1[["Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNN, LSTM/GRU)</i><br/>CV pipelines, RNNs, embeddings, LSTMs"]]
   end
 
   CS({{Current Session<br/><b>Transformers: Self-Attention Mechanism</b><br/><i>From sequential to parallel attention</i><br/>Query · Key · Value · Scaled dot-product · Multi-head · Positional encoding}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Gateway to modern NLP and LLMs</b><br/>Mastering self-attention unlocks BERT, GPT,<br/>and every LLM technique in the course.])
-    RV([Real-Life Value<br/><b>Core behind ChatGPT and modern AI</b><br/>Self-attention powers ChatGPT, Claude,<br/>Google Search, and GitHub Copilot.])
+    CV(["Course Value<br/><b>Gateway to modern NLP and LLMs</b><br/>Mastering self-attention unlocks BERT, GPT,<br/>and every LLM technique in the course."])
+    RV(["Real-Life Value<br/><b>Core behind ChatGPT and modern AI</b><br/>Self-attention powers ChatGPT, Claude,<br/>Google Search, and GitHub Copilot."])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

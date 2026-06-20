@@ -6,20 +6,20 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy/Pandas)</i><br/>Programming and classical ML foundations])
-    P2([Previous Module<br/><b>Module 2</b><br/><i>(XGBoost, PyTorch)</i><br/>ML to deep learning transition])
-    C1[[Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(Transformers, Diffusion Models)</i><br/>Full deep learning through generative AI]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy/Pandas)</i><br/>Programming and classical ML foundations"])
+    P2(["Previous Module<br/><b>Module 2</b><br/><i>(XGBoost, PyTorch)</i><br/>ML to deep learning transition"])
+    C1[["Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(Transformers, Diffusion Models)</i><br/>Full deep learning through generative AI"]]
   end
 
   CS{{Current Session<br/><b>Production AI: Serving &amp; Monitoring</b><br/><i>From notebooks to production</i><br/>ML serving · vLLM · drift detection · monitoring · cost optimisation}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Unlocks production deployment skills</b><br/>This session bridges model development and real-world serving — turning trained models into deployed systems that deliver value at scale.])
-    RV([Real-Life Value<br/><b>Deploy AI in production environments</b><br/>Learn to serve models efficiently, monitor them for drift, and optimise cloud costs — daily skills for any ML engineering role.])
+    CV(["Course Value<br/><b>Unlocks production deployment skills</b><br/>This session bridges model development and real-world serving — turning trained models into deployed systems that deliver value at scale."])
+    RV(["Real-Life Value<br/><b>Deploy AI in production environments</b><br/>Learn to serve models efficiently, monitor them for drift, and optimise cloud costs — daily skills for any ML engineering role."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3 Remaining</b><br/><i>(Vision-Language Models, Multimodal RAG)</i><br/>Multimodal AI and capstone integration])
+    F1(["Upcoming Module<br/><b>Module 3 Remaining</b><br/><i>(Vision-Language Models, Multimodal RAG)</i><br/>Multimodal AI and capstone integration"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

@@ -6,23 +6,23 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp; Data Foundations (Weeks 1-4)</b><br/><i>(Python, CSV/JSON)</i><br/>Core programming and data handling skills])
-    P2([Previous Module<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas (Weeks 5-8)</b><br/><i>(NumPy, Pandas)</i><br/>Numeric computation and tabular analysis])
-    P3([Previous Module<br/><b>Module 3: SQL for Data Science (Weeks 9-12)</b><br/><i>(SQL, Database Design)</i><br/>Structured data storage and retrieval])
-    P4([Previous Module<br/><b>Module 4: Statistics &amp; Data Visualization (Weeks 13-16)</b><br/><i>(Statistics, BI Tools)</i><br/>Statistical reasoning and visual storytelling])
-    P5([Previous Module<br/><b>Module 5: Applied Machine Learning (Weeks 17-20)</b><br/><i>(Scikit-learn, ML Models)</i><br/>Building and evaluating predictive models])
-    C1[[Current Module Until Previous Session<br/><b>Module 6: GenAI for Data Science</b><br/><i>(OpenAI API, Prompt Engineering)</i><br/>LLM fundamentals and API integration]]
+    P1(["Previous Module<br/><b>Module 1: Programming &amp; Data Foundations (Weeks 1-4)</b><br/><i>(Python, CSV/JSON)</i><br/>Core programming and data handling skills"])
+    P2(["Previous Module<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas (Weeks 5-8)</b><br/><i>(NumPy, Pandas)</i><br/>Numeric computation and tabular analysis"])
+    P3(["Previous Module<br/><b>Module 3: SQL for Data Science (Weeks 9-12)</b><br/><i>(SQL, Database Design)</i><br/>Structured data storage and retrieval"])
+    P4(["Previous Module<br/><b>Module 4: Statistics &amp; Data Visualization (Weeks 13-16)</b><br/><i>(Statistics, BI Tools)</i><br/>Statistical reasoning and visual storytelling"])
+    P5(["Previous Module<br/><b>Module 5: Applied Machine Learning (Weeks 17-20)</b><br/><i>(Scikit-learn, ML Models)</i><br/>Building and evaluating predictive models"])
+    C1[["Current Module Until Previous Session<br/><b>Module 6: GenAI for Data Science</b><br/><i>(OpenAI API, Prompt Engineering)</i><br/>LLM fundamentals and API integration"]]
   end
 
   CS{{Current Session<br/><b>Designing Input-Output Contracts</b><br/><i>From free text to structured data contracts</i><br/>JSON mode · structured outputs · error handling}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Bridges LLMs to Production</b><br/>Structured contracts let data pipelines safely consume AI outputs, powering the capstone and beyond.])
-    RV([Real-Life Value<br/><b>Powers Production AI Apps</b><br/>The difference between a demo script and an enterprise AI integration that downstream systems can trust.])
+    CV(["Course Value<br/><b>Bridges LLMs to Production</b><br/>Structured contracts let data pipelines safely consume AI outputs, powering the capstone and beyond."])
+    RV(["Real-Life Value<br/><b>Powers Production AI Apps</b><br/>The difference between a demo script and an enterprise AI integration that downstream systems can trust."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Capstone Project (Weeks 25-26)</b><br/><i>(Streamlit, Full Pipeline)</i><br/>End-to-end AI solution development])
+    F1(["Upcoming Module<br/><b>Capstone Project (Weeks 25-26)</b><br/><i>(Streamlit, Full Pipeline)</i><br/>End-to-end AI solution development"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

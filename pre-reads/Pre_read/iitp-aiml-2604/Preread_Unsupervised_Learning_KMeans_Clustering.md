@@ -6,19 +6,19 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1 (Weeks 1–8)</b><br/><i>(Python, scikit-learn)</i><br/>Python, data wrangling, statistics, ML pipelines])
-    C1[[Current Module Until Previous Session<br/><b>Module 2 (Weeks 9–12)</b><br/><i>(scikit-learn, XGBoost)</i><br/>Supervised classifiers, ensemble methods, hyperparameter optimisation]]
+    P1(["Previous Module<br/><b>Module 1 (Weeks 1–8)</b><br/><i>(Python, scikit-learn)</i><br/>Python, data wrangling, statistics, ML pipelines"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2 (Weeks 9–12)</b><br/><i>(scikit-learn, XGBoost)</i><br/>Supervised classifiers, ensemble methods, hyperparameter optimisation"]]
   end
 
   CS{{Current Session<br/><b>Unsupervised Learning: K-Means Clustering</b><br/><i>From labels to patterns</i><br/>Centroid · assignment · update · elbow · silhouette · segmentation}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Foundation for unstructured data</b><br/>Clustering teaches pattern discovery without labels — the core skill behind embeddings and representation learning in Module 3.])
-    RV([Real-Life Value<br/><b>Real-world pattern discovery</b><br/>Companies use K-Means daily for customer segmentation, document organisation, and data exploration — a must-have in any data scientist's toolkit.])
+    CV(["Course Value<br/><b>Foundation for unstructured data</b><br/>Clustering teaches pattern discovery without labels — the core skill behind embeddings and representation learning in Module 3."])
+    RV(["Real-Life Value<br/><b>Real-world pattern discovery</b><br/>Companies use K-Means daily for customer segmentation, document organisation, and data exploration — a must-have in any data scientist's toolkit."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3 (Weeks 20–36)</b><br/><i>(PyTorch, Transformers)</i><br/>Deep learning, NLP, CV, and generative AI])
+    F1(["Upcoming Module<br/><b>Module 3 (Weeks 20–36)</b><br/><i>(PyTorch, Transformers)</i><br/>Deep learning, NLP, CV, and generative AI"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

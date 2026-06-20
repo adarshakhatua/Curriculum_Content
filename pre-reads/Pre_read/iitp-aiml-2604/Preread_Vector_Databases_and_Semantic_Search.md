@@ -6,20 +6,20 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(NumPy/Pandas, Scikit-learn)</i><br/>Python, data wrangling, and classical ML])
-    P2([Previous Module<br/><b>Module 2</b><br/><i>(PyTorch, XGBoost)</i><br/>ML algorithms through neural networks])
-    C1[[Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNNs, Transformers/LLMs)</i><br/>CV, NLP, Transformers, and LLM fine-tuning]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(NumPy/Pandas, Scikit-learn)</i><br/>Python, data wrangling, and classical ML"])
+    P2(["Previous Module<br/><b>Module 2</b><br/><i>(PyTorch, XGBoost)</i><br/>ML algorithms through neural networks"])
+    C1[["Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNNs, Transformers/LLMs)</i><br/>CV, NLP, Transformers, and LLM fine-tuning"]]
   end
 
   CS({{Current Session<br/><b>Vector Databases &amp; Semantic Search</b><br/><i>From keywords to meaning</i><br/>Embedding models · Cosine similarity · ChromaDB · FAISS}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Bridges ML to production retrieval</b><br/>Vector search connects deep learning to<br/>grounded retrieval, powering RAG and AI agents.])
-    RV([Real-Life Value<br/><b>Semantic search in production apps</b><br/>Enables document search, Q&amp;A systems,<br/>and AI-powered recommendation engines.])
+    CV(["Course Value<br/><b>Bridges ML to production retrieval</b><br/>Vector search connects deep learning to<br/>grounded retrieval, powering RAG and AI agents."])
+    RV(["Real-Life Value<br/><b>Semantic search in production apps</b><br/>Enables document search, Q&amp;A systems,<br/>and AI-powered recommendation engines."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming<br/><b>RAG, Agents &amp; Gen AI</b><br/><i>(LangChain, AI Agents, Diffusion)</i><br/>RAG pipelines, AI agents, and generative models])
+    F1(["Upcoming<br/><b>RAG, Agents &amp; Gen AI</b><br/><i>(LangChain, AI Agents, Diffusion)</i><br/>RAG pipelines, AI agents, and generative models"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

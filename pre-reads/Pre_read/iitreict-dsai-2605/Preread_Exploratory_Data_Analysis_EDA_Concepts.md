@@ -6,21 +6,21 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp; Data Foundations (Weeks 1-4)</b><br/><i>(Python, APIs)</i><br/>Python fundamentals and data acquisition])
-    C1[[Current Module Until Previous Session<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas (Weeks 5-8)</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas, joins, cleaning, data quality]]
+    P1(["Previous Module<br/><b>Module 1: Programming &amp; Data Foundations (Weeks 1-4)</b><br/><i>(Python, APIs)</i><br/>Python fundamentals and data acquisition"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas (Weeks 5-8)</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas, joins, cleaning, data quality"]]
   end
 
-  CS{{Current Session<br/><b>Exploratory Data Analysis (EDA) Concepts</b><br/><i>Think like a data detective</i><br/>Univariate · Multivariate · Correlation · Trends · Hypotheses}}
+  CS{{"Current Session<br/><b>Exploratory Data Analysis (EDA) Concepts</b><br/><i>Think like a data detective</i><br/>Univariate · Multivariate · Correlation · Trends · Hypotheses"}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Unlocks intelligent data exploration</b><br/>Mastering EDA gives you the lens to inspect any dataset before modeling, a skill you will rely on in every ML and analysis module ahead.])
-    RV([Real-Life Value<br/><b>Spot patterns that drive decisions</b><br/>In industry, raw data never arrives with ready answers — EDA is the systematic approach to surfacing patterns that shape product roadmaps and business strategy.])
+    CV(["Course Value<br/><b>Unlocks intelligent data exploration</b><br/>Mastering EDA gives you the lens to inspect any dataset before modeling, a skill you will rely on in every ML and analysis module ahead."])
+    RV(["Real-Life Value<br/><b>Spot patterns that drive decisions</b><br/>In industry, raw data never arrives with ready answers — EDA is the systematic approach to surfacing patterns that shape product roadmaps and business strategy."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3: SQL for Data Science (Weeks 9-12)</b><br/><i>(SQL, Joins)</i><br/>Querying relational databases efficiently])
-    F2([Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization (Weeks 13-16)</b><br/><i>(Statistics, BI Tools)</i><br/>Statistical analysis and executive dashboards])
-    F3([Upcoming Module<br/><b>Module 5: Applied Machine Learning (Weeks 17-20)</b><br/><i>(Scikit-learn, Regression)</i><br/>Building and evaluating predictive models])
+    F1(["Upcoming Module<br/><b>Module 3: SQL for Data Science (Weeks 9-12)</b><br/><i>(SQL, Joins)</i><br/>Querying relational databases efficiently"])
+    F2(["Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization (Weeks 13-16)</b><br/><i>(Statistics, BI Tools)</i><br/>Statistical analysis and executive dashboards"])
+    F3(["Upcoming Module<br/><b>Module 5: Applied Machine Learning (Weeks 17-20)</b><br/><i>(Scikit-learn, Regression)</i><br/>Building and evaluating predictive models"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

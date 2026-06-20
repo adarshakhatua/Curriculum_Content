@@ -6,22 +6,22 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Programming &amp; Data Foundations</b><br/><i>(Python, REST APIs)</i><br/>Core Python, APIs, and data handling])
-    P2([Previous Module<br/><b>Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>Data manipulation with NumPy and Pandas])
-    C1[[Current Module Until Previous Session<br/><b>SQL for Data Science</b><br/><i>(SQL, Joins, CTEs)</i><br/>SQL schema, joins, set ops, subqueries, normalization]]
+    P1(["Previous Module<br/><b>Programming &amp; Data Foundations</b><br/><i>(Python, REST APIs)</i><br/>Core Python, APIs, and data handling"])
+    P2(["Previous Module<br/><b>Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>Data manipulation with NumPy and Pandas"])
+    C1[["Current Module Until Previous Session<br/><b>SQL for Data Science</b><br/><i>(SQL, Joins, CTEs)</i><br/>SQL schema, joins, set ops, subqueries, normalization"]]
   end
 
   CS{{Current Session<br/><b>Advanced Aggregations</b><br/><i>From retrieving rows to summarizing them</i><br/>Group By · Having · Count vs Count Distinct · Case When}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Aggregate data for ML-ready features</b><br/>Mastering SQL aggregations feeds into feature engineering for ML and SQL-pipeline integration.])
-    RV([Real-Life Value<br/><b>Business reporting with precise summaries</b><br/>Every data role requires grouped summaries and KPI reports from raw transactional data.])
+    CV(["Course Value<br/><b>Aggregate data for ML-ready features</b><br/>Mastering SQL aggregations feeds into feature engineering for ML and SQL-pipeline integration."])
+    RV(["Real-Life Value<br/><b>Business reporting with precise summaries</b><br/>Every data role requires grouped summaries and KPI reports from raw transactional data."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Statistics &amp; Data Visualization</b><br/><i>(Statistics, Seaborn/Tableau)</i><br/>Descriptive stats, hypothesis testing, dashboards])
-    F2([Upcoming Module<br/><b>Applied Machine Learning</b><br/><i>(Scikit-learn, Regression)</i><br/>ML models, evaluation, and feature engineering])
-    F3([Upcoming Module<br/><b>GenAI for Data Science</b><br/><i>(LLMs, RAG)</i><br/>LLMs, embeddings, and RAG-based AI systems])
+    F1(["Upcoming Module<br/><b>Statistics &amp; Data Visualization</b><br/><i>(Statistics, Seaborn/Tableau)</i><br/>Descriptive stats, hypothesis testing, dashboards"])
+    F2(["Upcoming Module<br/><b>Applied Machine Learning</b><br/><i>(Scikit-learn, Regression)</i><br/>ML models, evaluation, and feature engineering"])
+    F3(["Upcoming Module<br/><b>GenAI for Data Science</b><br/><i>(LLMs, RAG)</i><br/>LLMs, embeddings, and RAG-based AI systems"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

@@ -6,19 +6,19 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy, Scikit-learn)</i><br/>Programming through ML evaluation])
-    C1[[Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost, Neural Nets)</i><br/>Classifiers, clustering, optimisation, neural network foundations]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy, Scikit-learn)</i><br/>Programming through ML evaluation"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost, Neural Nets)</i><br/>Classifiers, clustering, optimisation, neural network foundations"]]
   end
 
   CS({{Current Session<br/><b>Backpropagation &amp; Training Intuition</b><br/><i>Training deep networks from first principles</i><br/>Xavier init · He init · Backpropagation · Chain rule · Gradient flow}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Unlocks practical deep learning</b><br/>Mastering backpropagation and weight initialisation equips you to train any neural network architecture — CNNs, RNNs, and Transformers — which is exactly what Module 3 demands.])
-    RV([Real-Life Value<br/><b>Debug and train real networks</b><br/>When your model loss plateaus or gradients vanish, understanding backpropagation and initialisation tells you exactly where the problem is — turning you from someone who runs code into someone who fixes models.])
+    CV(["Course Value<br/><b>Unlocks practical deep learning</b><br/>Mastering backpropagation and weight initialisation equips you to train any neural network architecture — CNNs, RNNs, and Transformers — which is exactly what Module 3 demands."])
+    RV(["Real-Life Value<br/><b>Debug and train real networks</b><br/>When your model loss plateaus or gradients vanish, understanding backpropagation and initialisation tells you exactly where the problem is — turning you from someone who runs code into someone who fixes models."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, HuggingFace)</i><br/>Deep learning, CV, NLP, and production AI])
+    F1(["Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, HuggingFace)</i><br/>Deep learning, CV, NLP, and production AI"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

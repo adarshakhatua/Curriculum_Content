@@ -6,23 +6,23 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp; Data Foundations (Weeks 1-4)</b><br/><i>(Python, APIs)</i><br/>Python programming, data structures, and API fundamentals])
-    P2([Previous Module<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas (Weeks 5-8)</b><br/><i>(NumPy, Pandas)</i><br/>Numeric computation and structured data analysis])
-    P3([Previous Module<br/><b>Module 3: SQL for Data Science (Weeks 9-12)</b><br/><i>(SQL, Database Design)</i><br/>Database querying and relational data management])
-    C1[[Current Module Until Previous Session<br/><b>Module 4: Statistics &amp; Data Visualization (Weeks 13-16)</b><br/><i>(Statistics, Seaborn)</i><br/>Stats, probability, hypothesis testing, visual storytelling]]
+    P1(["Previous Module<br/><b>Module 1: Programming &amp; Data Foundations (Weeks 1-4)</b><br/><i>(Python, APIs)</i><br/>Python programming, data structures, and API fundamentals"])
+    P2(["Previous Module<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas (Weeks 5-8)</b><br/><i>(NumPy, Pandas)</i><br/>Numeric computation and structured data analysis"])
+    P3(["Previous Module<br/><b>Module 3: SQL for Data Science (Weeks 9-12)</b><br/><i>(SQL, Database Design)</i><br/>Database querying and relational data management"])
+    C1[["Current Module Until Previous Session<br/><b>Module 4: Statistics &amp; Data Visualization (Weeks 13-16)</b><br/><i>(Statistics, Seaborn)</i><br/>Stats, probability, hypothesis testing, visual storytelling"]]
   end
 
   CS{{Current Session<br/><b>Choosing the Right Chart</b><br/><i>Data types inform visual marks</i><br/>Distributions · Comparisons · Trends · Relationships}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Bridge stats to decision visuals</b><br/>This session is the bridge that turns raw statistics into clear, decision-ready visuals — essential for communicating ML results in Modules 5 and 6.])
-    RV([Real-Life Value<br/><b>Charts that speak to stakeholders</b><br/>Every data professional is judged by the clarity of their charts; this session equips you to choose the right visual for any audience.])
+    CV(["Course Value<br/><b>Bridge stats to decision visuals</b><br/>This session is the bridge that turns raw statistics into clear, decision-ready visuals — essential for communicating ML results in Modules 5 and 6."])
+    RV(["Real-Life Value<br/><b>Charts that speak to stakeholders</b><br/>Every data professional is judged by the clarity of their charts; this session equips you to choose the right visual for any audience."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 5: Applied Machine Learning (Weeks 17-20)</b><br/><i>(Scikit-learn, ML)</i><br/>Supervised and unsupervised predictive modeling])
-    F2([Upcoming Module<br/><b>Module 6: GenAI for Data Science (Weeks 21-24)</b><br/><i>(LLMs, Vector DBs)</i><br/>Large language models and generative AI applications])
-    F3([Upcoming Module<br/><b>Capstone Project (Weeks 25-26)</b><br/><i>(Streamlit, Full-stack)</i><br/>End-to-end data science project delivery])
+    F1(["Upcoming Module<br/><b>Module 5: Applied Machine Learning (Weeks 17-20)</b><br/><i>(Scikit-learn, ML)</i><br/>Supervised and unsupervised predictive modeling"])
+    F2(["Upcoming Module<br/><b>Module 6: GenAI for Data Science (Weeks 21-24)</b><br/><i>(LLMs, Vector DBs)</i><br/>Large language models and generative AI applications"])
+    F3(["Upcoming Module<br/><b>Capstone Project (Weeks 25-26)</b><br/><i>(Streamlit, Full-stack)</i><br/>End-to-end data science project delivery"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

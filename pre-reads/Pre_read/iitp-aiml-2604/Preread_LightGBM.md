@@ -6,19 +6,19 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy/Pandas, Scikit-learn)</i><br/>Foundation in Python, stats, and ML basics])
-    C1([[Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost)</i><br/>Distance-based, probabilistic, tree, and ensemble models]])
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy/Pandas, Scikit-learn)</i><br/>Foundation in Python, stats, and ML basics"])
+    C1([["Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost)</i><br/>Distance-based, probabilistic, tree, and ensemble models"]])
   end
 
   CS{{Current Session<br/><b>LightGBM</b><br/><i>Speed-optimised gradient boosting</i><br/>Leaf-wise growth · categorical features · hyperparameters · XGBoost comparison}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Bridge to large-scale ML</b><br/>Mastering LightGBM teaches efficiency techniques that carry into training deep neural networks and transformers.])
-    RV([Real-Life Value<br/><b>Production-winning tabular model</b><br/>LightGBM powers real-time predictions in finance, e-commerce, and ad-tech where speed and accuracy matter most.])
+    CV(["Course Value<br/><b>Bridge to large-scale ML</b><br/>Mastering LightGBM teaches efficiency techniques that carry into training deep neural networks and transformers."])
+    RV(["Real-Life Value<br/><b>Production-winning tabular model</b><br/>LightGBM powers real-time predictions in finance, e-commerce, and ad-tech where speed and accuracy matter most."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, CNNs, Transformers)</i><br/>Deep learning, NLP, computer vision, and generative AI])
+    F1(["Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, CNNs, Transformers)</i><br/>Deep learning, NLP, computer vision, and generative AI"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

@@ -6,19 +6,19 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, Scikit-learn)</i><br/>Python, data analysis, and ML fundamentals])
-    C1[[Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost)</i><br/>Classifiers, ensembles, and clustering algorithms]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, Scikit-learn)</i><br/>Python, data analysis, and ML fundamentals"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost)</i><br/>Classifiers, ensembles, and clustering algorithms"]]
   end
 
   CS({{Current Session<br/><b>Dimensionality Reduction: PCA &amp; t-SNE</b><br/><i>Seeing hidden structure in high dimensions</i><br/>Curse of dimensionality &middot; PCA &middot; t-SNE &middot; UMAP &middot; Explained variance}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Essential bridge to deep learning</b><br/>PCA and t-SNE teach you to think in feature spaces and latent representations — a skill you will use constantly in neural networks and embedding layers.])
-    RV([Real-Life Value<br/><b>Visualise and compress real-world data</b><br/>From genomics to e-commerce, dimensionality reduction helps you find patterns, reduce noise, and speed up models by focusing on what matters.])
+    CV(["Course Value<br/><b>Essential bridge to deep learning</b><br/>PCA and t-SNE teach you to think in feature spaces and latent representations — a skill you will use constantly in neural networks and embedding layers."])
+    RV(["Real-Life Value<br/><b>Visualise and compress real-world data</b><br/>From genomics to e-commerce, dimensionality reduction helps you find patterns, reduce noise, and speed up models by focusing on what matters."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, HuggingFace)</i><br/>Deep learning, NLP, and production AI systems])
+    F1(["Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, HuggingFace)</i><br/>Deep learning, NLP, and production AI systems"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

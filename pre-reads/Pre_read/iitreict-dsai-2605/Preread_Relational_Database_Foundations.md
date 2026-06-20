@@ -6,21 +6,21 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Programming &amp; Data Foundations</b><br/><i>(Python, REST APIs)</i><br/>Built core Python and data literacy])
-    P2([Previous Module<br/><b>Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas, and data exploration])
+    P1(["Previous Module<br/><b>Programming &amp; Data Foundations</b><br/><i>(Python, REST APIs)</i><br/>Built core Python and data literacy"])
+    P2(["Previous Module<br/><b>Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas, and data exploration"])
   end
 
   CS({{Current Session<br/><b>Relational Database Foundations</b><br/><i>Think in tables, not scripts</i><br/>Tables · Rows · Columns · Keys · Schema Design}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Bridges data tools to real-world databases</b><br/>Mastering relational databases gives you the ability to query and organize data at scale — a skill every future module depends on for sourcing, joining, and preparing real datasets.])
-    RV([Real-Life Value<br/><b>The backbone of data-driven companies</b><br/>Every company stores its customer, product, and transaction data in relational databases — knowing how they work is what separates someone who can analyze data from someone who can access it in the first place.])
+    CV(["Course Value<br/><b>Bridges data tools to real-world databases</b><br/>Mastering relational databases gives you the ability to query and organize data at scale — a skill every future module depends on for sourcing, joining, and preparing real datasets."])
+    RV(["Real-Life Value<br/><b>The backbone of data-driven companies</b><br/>Every company stores its customer, product, and transaction data in relational databases — knowing how they work is what separates someone who can analyze data from someone who can access it in the first place."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Statistics &amp; Data Visualization</b><br/><i>(Stats, Seaborn)</i><br/>Statistical reasoning and visual communication])
-    F2([Upcoming Module<br/><b>Applied Machine Learning</b><br/><i>(Scikit-learn, ML)</i><br/>Predictive modeling with Scikit-learn])
-    F3([Upcoming Module<br/><b>GenAI for Data Science</b><br/><i>(LLMs, RAG)</i><br/>LLMs, embeddings, and AI applications])
+    F1(["Upcoming Module<br/><b>Statistics &amp; Data Visualization</b><br/><i>(Stats, Seaborn)</i><br/>Statistical reasoning and visual communication"])
+    F2(["Upcoming Module<br/><b>Applied Machine Learning</b><br/><i>(Scikit-learn, ML)</i><br/>Predictive modeling with Scikit-learn"])
+    F3(["Upcoming Module<br/><b>GenAI for Data Science</b><br/><i>(LLMs, RAG)</i><br/>LLMs, embeddings, and AI applications"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

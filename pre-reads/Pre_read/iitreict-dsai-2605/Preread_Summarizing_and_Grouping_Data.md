@@ -6,21 +6,21 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, Data Structures)</i><br/>Python foundations, data structures, APIs])
-    C1[[Current Module Until Previous Session<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas basics, data selection and filtering]]
+    P1(["Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, Data Structures)</i><br/>Python foundations, data structures, APIs"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas basics, data selection and filtering"]]
   end
 
   CS{{Current Session<br/><b>Summarizing &amp; Grouping Data</b><br/><i>From rows to groups — seeing the big picture</i><br/>Groupby · Pivot tables · Descriptive stats · Multi-index}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Aggregation unlocks every advanced module</b><br/>Grouping in Pandas transfers directly to SQL GROUP BY, statistical summarization, and feature engineering for ML.])
-    RV([Real-Life Value<br/><b>Answer any "by" question in business</b><br/>Every industry report relies on grouped summaries — sales by region, churn by plan, performance by team.])
+    CV(["Course Value<br/><b>Aggregation unlocks every advanced module</b><br/>Grouping in Pandas transfers directly to SQL GROUP BY, statistical summarization, and feature engineering for ML."])
+    RV(["Real-Life Value<br/><b>Answer any "by" question in business</b><br/>Every industry report relies on grouped summaries — sales by region, churn by plan, performance by team."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL, Data Aggregation)</i><br/>Query and combine relational data])
-    F2([Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Statistics, Visualization)</i><br/>Describe and visualize data patterns])
-    F3([Upcoming Module<br/><b>Module 5 &amp; 6: ML &amp; GenAI</b><br/><i>(Scikit-Learn, LLMs)</i><br/>Build predictive and AI-powered models])
+    F1(["Upcoming Module<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL, Data Aggregation)</i><br/>Query and combine relational data"])
+    F2(["Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Statistics, Visualization)</i><br/>Describe and visualize data patterns"])
+    F3(["Upcoming Module<br/><b>Module 5 &amp; 6: ML &amp; GenAI</b><br/><i>(Scikit-Learn, LLMs)</i><br/>Build predictive and AI-powered models"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

@@ -6,20 +6,20 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, Pandas)</i><br/>Programming &amp; data foundations])
-    P2([Previous Module<br/><b>Module 2</b><br/><i>(XGBoost, PyTorch)</i><br/>ML models &amp; deep learning])
-    C1[[Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNNs, LoRA)</i><br/>CV, NLP &amp; LLM fine-tuning]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, Pandas)</i><br/>Programming &amp; data foundations"])
+    P2(["Previous Module<br/><b>Module 2</b><br/><i>(XGBoost, PyTorch)</i><br/>ML models &amp; deep learning"])
+    C1[["Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNNs, LoRA)</i><br/>CV, NLP &amp; LLM fine-tuning"]]
   end
 
   CS{{Current Session<br/><b>LLM Concepts &amp; Responsible Use</b><br/><i>From user to responsible builder</i><br/>Pre-training · RLHF · Context Window · Hallucination · Open-source LLMs}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Foundation for all Gen AI modules</b><br/>Mastering responsible LLM use prepares you to build reliable RAG pipelines, AI agents, and production systems that users can trust.])
-    RV([Real-Life Value<br/><b>Build trustworthy AI products</b><br/>Companies need engineers who can deploy LLMs that are factual, fair, and safe — not just impressive demos.])
+    CV(["Course Value<br/><b>Foundation for all Gen AI modules</b><br/>Mastering responsible LLM use prepares you to build reliable RAG pipelines, AI agents, and production systems that users can trust."])
+    RV(["Real-Life Value<br/><b>Build trustworthy AI products</b><br/>Companies need engineers who can deploy LLMs that are factual, fair, and safe — not just impressive demos."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Remaining Module 3<br/><b>RAG, Agents, Gen AI &amp; Capstone</b><br/><i>(ChromaDB, LangChain, vLLM)</i><br/>Production-ready Gen AI systems])
+    F1(["Remaining Module 3<br/><b>RAG, Agents, Gen AI &amp; Capstone</b><br/><i>(ChromaDB, LangChain, vLLM)</i><br/>Production-ready Gen AI systems"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

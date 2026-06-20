@@ -6,22 +6,22 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp; Data Foundations (Weeks 1-4)</b><br/><i>(Python, REST APIs)</i><br/>Established Python and data fetching foundations])
-    P2([Previous Module<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas (Weeks 5-8)</b><br/><i>(NumPy, Pandas)</i><br/>Built data manipulation and analysis pipelines])
-    C1[[Current Module Until Previous Session<br/><b>Module 3: SQL for Data Science (Weeks 9-12)</b><br/><i>(SQL, Relational Databases)</i><br/>DB schema, queries, joins, subqueries]]
+    P1(["Previous Module<br/><b>Module 1: Programming &amp; Data Foundations (Weeks 1-4)</b><br/><i>(Python, REST APIs)</i><br/>Established Python and data fetching foundations"])
+    P2(["Previous Module<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas (Weeks 5-8)</b><br/><i>(NumPy, Pandas)</i><br/>Built data manipulation and analysis pipelines"])
+    C1[["Current Module Until Previous Session<br/><b>Module 3: SQL for Data Science (Weeks 9-12)</b><br/><i>(SQL, Relational Databases)</i><br/>DB schema, queries, joins, subqueries"]]
   end
 
   CS{{Current Session<br/><b>Relational Integrity &amp; Normalization</b><br/><i>Design, don't just query</i><br/>1NF · 2NF · 3NF · Denormalization}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Well-structured databases power reliable analysis</b><br/>Normalization ensures datasets for statistics, ML, and AI are free of contradictory information, a prerequisite for trustworthy modeling.])
-    RV([Real-Life Value<br/><b>Design production-grade databases that scale</b><br/>Companies rely on normalized schemas to maintain customer, inventory, and transaction data without duplication.])
+    CV(["Course Value<br/><b>Well-structured databases power reliable analysis</b><br/>Normalization ensures datasets for statistics, ML, and AI are free of contradictory information, a prerequisite for trustworthy modeling."])
+    RV(["Real-Life Value<br/><b>Design production-grade databases that scale</b><br/>Companies rely on normalized schemas to maintain customer, inventory, and transaction data without duplication."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization (Weeks 13-16)</b><br/><i>(Statistics, BI Tools)</i><br/>Statistical analysis and visual dashboards])
-    F2([Upcoming Module<br/><b>Module 5: Applied Machine Learning (Weeks 17-20)</b><br/><i>(Scikit-learn, ML Models)</i><br/>Predictive modeling and model evaluation])
-    F3([Upcoming Module<br/><b>Module 6: GenAI for Data Science (Weeks 21-24)</b><br/><i>(LLMs, Vector Databases)</i><br/>Generative AI and retrieval systems])
+    F1(["Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization (Weeks 13-16)</b><br/><i>(Statistics, BI Tools)</i><br/>Statistical analysis and visual dashboards"])
+    F2(["Upcoming Module<br/><b>Module 5: Applied Machine Learning (Weeks 17-20)</b><br/><i>(Scikit-learn, ML Models)</i><br/>Predictive modeling and model evaluation"])
+    F3(["Upcoming Module<br/><b>Module 6: GenAI for Data Science (Weeks 21-24)</b><br/><i>(LLMs, Vector Databases)</i><br/>Generative AI and retrieval systems"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

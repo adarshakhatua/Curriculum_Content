@@ -6,19 +6,19 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, NumPy, Scikit-learn)</i><br/>Python, statistics, and classical ML foundations])
-    C1[[Current Module Until Previous Session<br/><b>Module 2: Classifiers to Deep Learning</b><br/><i>(XGBoost, PyTorch)</i><br/>Full ML pipeline from classifiers through deep learning and regularisation — now complete before this session]]
+    P1(["Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, NumPy, Scikit-learn)</i><br/>Python, statistics, and classical ML foundations"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2: Classifiers to Deep Learning</b><br/><i>(XGBoost, PyTorch)</i><br/>Full ML pipeline from classifiers through deep learning and regularisation — now complete before this session"]]
   end
 
   CS{{Current Session<br/><b>Deployment &amp; MLOps Foundations</b><br/><i>From notebook to production system</i><br/>ML project structure · DVC · automated testing · GitHub Actions · model registry}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Bridge from training to deployment</b><br/>This session transforms your model-building skills into deployable, production-ready ML systems, unlocking the final critical layer of the ML lifecycle.])
-    RV([Real-Life Value<br/><b>Ship models that teams trust</b><br/>In industry, an unversioned, untested model has zero value — MLOps practices let you collaborate, reproduce, and deploy confidently in any engineering organisation.])
+    CV(["Course Value<br/><b>Bridge from training to deployment</b><br/>This session transforms your model-building skills into deployable, production-ready ML systems, unlocking the final critical layer of the ML lifecycle."])
+    RV(["Real-Life Value<br/><b>Ship models that teams trust</b><br/>In industry, an unversioned, untested model has zero value — MLOps practices let you collaborate, reproduce, and deploy confidently in any engineering organisation."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3: Deep Learning &amp; Generative AI</b><br/><i>(CNNs, Transformers, RAG)</i><br/>CNNs through multimodal AI, LLMs, and production AI systems])
+    F1(["Upcoming Module<br/><b>Module 3: Deep Learning &amp; Generative AI</b><br/><i>(CNNs, Transformers, RAG)</i><br/>CNNs through multimodal AI, LLMs, and production AI systems"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

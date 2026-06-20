@@ -6,20 +6,20 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, scikit-learn)</i><br/>Python, statistics, and ML foundations])
-    P2([Previous Module<br/><b>Module 2</b><br/><i>(scikit-learn, PyTorch)</i><br/>Classical ML, neural networks, and PyTorch])
-    C1[[Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNNs, RNNs/LSTMs)</i><br/>Full CV pipeline, sequential models, self-attention]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, scikit-learn)</i><br/>Python, statistics, and ML foundations"])
+    P2(["Previous Module<br/><b>Module 2</b><br/><i>(scikit-learn, PyTorch)</i><br/>Classical ML, neural networks, and PyTorch"])
+    C1[["Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNNs, RNNs/LSTMs)</i><br/>Full CV pipeline, sequential models, self-attention"]]
   end
 
   CS{{Current Session<br/><b>Transformer Architecture &amp; BERT</b><br/><i>From sequential to parallel processing</i><br/>Encoder stack · BERT · WordPiece · HuggingFace fine-tuning}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Unlocks modern NLP and LLMs</b><br/>Mastering Transformers and BERT is the gateway to every major NLP advance — GPT, T5, LLMs, RAG, and production AI.])
-    RV([Real-Life Value<br/><b>Build real-world text AI systems</b><br/>From sentiment analysis to search engines, this session lets you fine-tune state-of-the-art language models for any text task.])
+    CV(["Course Value<br/><b>Unlocks modern NLP and LLMs</b><br/>Mastering Transformers and BERT is the gateway to every major NLP advance — GPT, T5, LLMs, RAG, and production AI."])
+    RV(["Real-Life Value<br/><b>Build real-world text AI systems</b><br/>From sentiment analysis to search engines, this session lets you fine-tune state-of-the-art language models for any text task."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3 (continued)</b><br/><i>(HuggingFace, LangChain)</i><br/>LLMs, generative AI, and production deployment])
+    F1(["Upcoming Module<br/><b>Module 3 (continued)</b><br/><i>(HuggingFace, LangChain)</i><br/>LLMs, generative AI, and production deployment"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

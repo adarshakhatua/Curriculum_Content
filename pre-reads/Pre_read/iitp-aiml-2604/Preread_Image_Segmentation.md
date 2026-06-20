@@ -6,20 +6,20 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy)</i><br/>Data foundations and ML math])
-    P2([Previous Module<br/><b>Module 2</b><br/><i>(Scikit-learn, PyTorch)</i><br/>ML models and deep learning])
-    C1[[Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNN, YOLO)</i><br/>CNNs, transfer learning, object detection]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy)</i><br/>Data foundations and ML math"])
+    P2(["Previous Module<br/><b>Module 2</b><br/><i>(Scikit-learn, PyTorch)</i><br/>ML models and deep learning"])
+    C1[["Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNN, YOLO)</i><br/>CNNs, transfer learning, object detection"]]
   end
 
   CS{{Current Session<br/><b>Image Segmentation</b><br/><i>From boxes to pixel-perfect masks</i><br/>Semantic · Instance · U-Net · Skip Connections · Dice Loss · Medical Imaging}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Pixel precision for advanced vision</b><br/>Mastering segmentation prepares you for advanced vision tasks including autonomous perception and medical image analysis.])
-    RV([Real-Life Value<br/><b>Read scans, map Earth, drive cars</b><br/>You will be able to build systems that read medical scans, map satellite imagery, and drive autonomous vehicles.])
+    CV(["Course Value<br/><b>Pixel precision for advanced vision</b><br/>Mastering segmentation prepares you for advanced vision tasks including autonomous perception and medical image analysis."])
+    RV(["Real-Life Value<br/><b>Read scans, map Earth, drive cars</b><br/>You will be able to build systems that read medical scans, map satellite imagery, and drive autonomous vehicles."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3</b><br/><i>(Transformers, Diffusion Models)</i><br/>NLP, LLMs, and generative AI ahead])
+    F1(["Upcoming Module<br/><b>Module 3</b><br/><i>(Transformers, Diffusion Models)</i><br/>NLP, LLMs, and generative AI ahead"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

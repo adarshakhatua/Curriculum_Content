@@ -6,19 +6,19 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, Scikit-learn)</i><br/>Programming, data wrangling, ML foundations])
-    C1[[Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost)</i><br/>Supervised classifiers, ensemble, tuning, K-Means]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, Scikit-learn)</i><br/>Programming, data wrangling, ML foundations"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost)</i><br/>Supervised classifiers, ensemble, tuning, K-Means"]]
   end
 
   CS{{Current Session<br/><b>Hierarchical &amp; Density-Based Clustering</b><br/><i>Beyond flat clusters</i><br/>Agglomerative · Linkage · Dendrogram · DBSCAN · Noise}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Unlocks unsupervised ML mastery</b><br/>Mastering density-based and hierarchical clustering prepares you for dimensionality reduction, anomaly detection, and embedding-based search in deep learning.])
-    RV([Real-Life Value<br/><b>Pattern discovery without labels</b><br/>From retail customer segmentation to network intrusion detection, real-world data rarely comes with labels — these algorithms turn unlabeled data into actionable insights.])
+    CV(["Course Value<br/><b>Unlocks unsupervised ML mastery</b><br/>Mastering density-based and hierarchical clustering prepares you for dimensionality reduction, anomaly detection, and embedding-based search in deep learning."])
+    RV(["Real-Life Value<br/><b>Pattern discovery without labels</b><br/>From retail customer segmentation to network intrusion detection, real-world data rarely comes with labels — these algorithms turn unlabeled data into actionable insights."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, Transformers)</i><br/>Deep learning, NLP, LLMs, generative AI])
+    F1(["Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, Transformers)</i><br/>Deep learning, NLP, LLMs, generative AI"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

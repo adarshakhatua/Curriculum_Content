@@ -6,19 +6,19 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy, Pandas, Scikit-learn)</i><br/>Data programming, statistics, and ML basics])
-    C1[[Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost, PCA)</i><br/>Classifiers, clustering, dimensionality reduction, optimisation]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, NumPy, Pandas, Scikit-learn)</i><br/>Data programming, statistics, and ML basics"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost, PCA)</i><br/>Classifiers, clustering, dimensionality reduction, optimisation"]]
   end
 
   CS({{Current Session<br/><b>Neural Network Foundations</b><br/><i>From logistic regression to a neuron</i><br/>Perceptron · MLP forward pass · activation functions}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Gateway to all deep learning</b><br/>This session unlocks CNNs, RNNs, Transformers, and LLMs — every major architecture ahead builds on the neuron.])
-    RV([Real-Life Value<br/><b>Foundation for industry AI</b><br/>Neural networks power image recognition, chatbots, and recommendation engines across every industry.])
+    CV(["Course Value<br/><b>Gateway to all deep learning</b><br/>This session unlocks CNNs, RNNs, Transformers, and LLMs — every major architecture ahead builds on the neuron."])
+    RV(["Real-Life Value<br/><b>Foundation for industry AI</b><br/>Neural networks power image recognition, chatbots, and recommendation engines across every industry."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, HuggingFace Transformers)</i><br/>Deep learning, NLP, LLMs, and production AI])
+    F1(["Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, HuggingFace Transformers)</i><br/>Deep learning, NLP, LLMs, and production AI"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1

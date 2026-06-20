@@ -6,22 +6,22 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Data Analysis with NumPy &amp; Pandas (Weeks 5-8)</b><br/><i>(NumPy, Pandas)</i><br/>Data wrangling and structured analysis])
-    P2([Previous Module<br/><b>SQL for Data Science (Weeks 9-12)</b><br/><i>(SQL, Window Functions)</i><br/>Relational data querying and manipulation])
-    P3([Previous Module<br/><b>Statistics &amp; Data Visualization (Weeks 13-16)</b><br/><i>(Statistics, BI Tools)</i><br/>Statistical inference and data storytelling])
+    P1(["Previous Module<br/><b>Data Analysis with NumPy &amp; Pandas (Weeks 5-8)</b><br/><i>(NumPy, Pandas)</i><br/>Data wrangling and structured analysis"])
+    P2(["Previous Module<br/><b>SQL for Data Science (Weeks 9-12)</b><br/><i>(SQL, Window Functions)</i><br/>Relational data querying and manipulation"])
+    P3(["Previous Module<br/><b>Statistics &amp; Data Visualization (Weeks 13-16)</b><br/><i>(Statistics, BI Tools)</i><br/>Statistical inference and data storytelling"])
     C1([[Current Module Until Previous Session<br/><b>Applied Machine Learning (Weeks 17-20)</b><br/><i>(Scikit-learn, Decision Trees)</i><br/>ML lifecycle, regression, decision trees, classification, KNN]])
   end
 
   CS({{Current Session<br/><b>Ensemble Learning: Random Forests</b><br/><i>Strength in numbers</i><br/>Bagging · Bootstrapping · Feature importance · Variance reduction}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Foundation for ensemble and capstone</b><br/>Random Forests build the intuition for gradient boosting, clustering, and robust capstone models.])
-    RV([Real-Life Value<br/><b>Industry go-to for reliable predictions</b><br/>Random Forests power credit scoring, medical diagnosis, and e-commerce recommendations.])
+    CV(["Course Value<br/><b>Foundation for ensemble and capstone</b><br/>Random Forests build the intuition for gradient boosting, clustering, and robust capstone models."])
+    RV(["Real-Life Value<br/><b>Industry go-to for reliable predictions</b><br/>Random Forests power credit scoring, medical diagnosis, and e-commerce recommendations."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>GenAI for Data Science (Weeks 21-24)</b><br/><i>(LLMs, RAG)</i><br/>Generative AI and retrieval-augmented systems])
-    F2([Upcoming Module<br/><b>Capstone Project (Weeks 25-26)</b><br/><i>(ML Pipeline, Streamlit)</i><br/>End-to-end project development and deployment])
+    F1(["Upcoming Module<br/><b>GenAI for Data Science (Weeks 21-24)</b><br/><i>(LLMs, RAG)</i><br/>Generative AI and retrieval-augmented systems"])
+    F2(["Upcoming Module<br/><b>Capstone Project (Weeks 25-26)</b><br/><i>(ML Pipeline, Streamlit)</i><br/>End-to-end project development and deployment"])
   end
 
   P1 ==>|&nbsp;Data Tools&nbsp;| P2

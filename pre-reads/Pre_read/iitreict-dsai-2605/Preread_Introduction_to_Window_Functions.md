@@ -6,22 +6,22 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, APIs)</i><br/>Built core programming and data skills])
-    P2([Previous Module<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>Mastered structured data analysis])
-    C1[[Current Module Until Previous Session<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL Joins, GROUP BY)</i><br/>DB schema, joins, aggregations with GROUP BY and HAVING]]
+    P1(["Previous Module<br/><b>Module 1: Programming &amp; Data Foundations</b><br/><i>(Python, APIs)</i><br/>Built core programming and data skills"])
+    P2(["Previous Module<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>Mastered structured data analysis"])
+    C1[["Current Module Until Previous Session<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL Joins, GROUP BY)</i><br/>DB schema, joins, aggregations with GROUP BY and HAVING"]]
   end
 
   CS({{Current Session<br/><b>Introduction to Window Functions</b><br/><i>A new dimension of row-wise calculation</i><br/>OVER clause · ROW_NUMBER · RANK · DENSE_RANK · Running totals}})
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Powers advanced analytics ahead</b><br/>Enables statistical comparisons, feature engineering, and sequential analysis across future modules.])
-    RV([Real-Life Value<br/><b>Industry-standard data analysis</b><br/>Used daily for ranking sales, computing running totals, and detecting anomalies in time-series data.])
+    CV(["Course Value<br/><b>Powers advanced analytics ahead</b><br/>Enables statistical comparisons, feature engineering, and sequential analysis across future modules."])
+    RV(["Real-Life Value<br/><b>Industry-standard data analysis</b><br/>Used daily for ranking sales, computing running totals, and detecting anomalies in time-series data."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Hypothesis Testing, BI Tools)</i><br/>Statistical reasoning and visual storytelling])
-    F2([Upcoming Module<br/><b>Module 5: Applied Machine Learning</b><br/><i>(Regression, Classification)</i><br/>Building predictive models with ML])
-    F3([Upcoming Module<br/><b>Module 6: GenAI for Data Science</b><br/><i>(LLMs, RAG)</i><br/>Modern GenAI in data science])
+    F1(["Upcoming Module<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Hypothesis Testing, BI Tools)</i><br/>Statistical reasoning and visual storytelling"])
+    F2(["Upcoming Module<br/><b>Module 5: Applied Machine Learning</b><br/><i>(Regression, Classification)</i><br/>Building predictive models with ML"])
+    F3(["Upcoming Module<br/><b>Module 6: GenAI for Data Science</b><br/><i>(LLMs, RAG)</i><br/>Modern GenAI in data science"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| P2

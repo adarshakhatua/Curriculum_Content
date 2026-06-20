@@ -6,19 +6,19 @@
 %%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 65, "diagramPadding": 20}} }%%
 flowchart TB
   subgraph Foundation["Foundation Built So Far"]
-    P1([Previous Module<br/><b>Module 1</b><br/><i>(Python, Scikit-learn)</i><br/>Programming and ML fundamentals])
-    C1[[Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost)</i><br/>Supervised, unsupervised, and recommendation systems]]
+    P1(["Previous Module<br/><b>Module 1</b><br/><i>(Python, Scikit-learn)</i><br/>Programming and ML fundamentals"])
+    C1[["Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost)</i><br/>Supervised, unsupervised, and recommendation systems"]]
   end
 
   CS{{Current Session<br/><b>Time Series Analysis &amp; Forecasting</b><br/><i>Seeing patterns across time</i><br/>Trend · Seasonality · ARIMA · Forecast evaluation}}
 
   subgraph Value["Why This Matters"]
-    CV([Course Value<br/><b>Foundation for sequence modelling</b><br/>Time series skills directly lead into RNNs, LSTMs, and transformer-based forecasting in Module 3.])
-    RV([Real-Life Value<br/><b>Forecast anything that changes over time</b><br/>Demand forecasting, stock prediction, energy load forecasting, and IoT anomaly detection all rely on these techniques.])
+    CV(["Course Value<br/><b>Foundation for sequence modelling</b><br/>Time series skills directly lead into RNNs, LSTMs, and transformer-based forecasting in Module 3."])
+    RV(["Real-Life Value<br/><b>Forecast anything that changes over time</b><br/>Demand forecasting, stock prediction, energy load forecasting, and IoT anomaly detection all rely on these techniques."])
   end
 
   subgraph Future["Where This Leads Next"]
-    F1([Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, HuggingFace)</i><br/>Deep learning, NLP, CV, and LLMs])
+    F1(["Upcoming Module<br/><b>Module 3</b><br/><i>(PyTorch, HuggingFace)</i><br/>Deep learning, NLP, CV, and LLMs"])
   end
 
   P1 ==>|&nbsp;Foundation&nbsp;| C1
