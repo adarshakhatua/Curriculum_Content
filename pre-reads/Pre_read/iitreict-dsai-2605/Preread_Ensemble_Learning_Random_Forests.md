@@ -12,7 +12,7 @@ flowchart TB
     C1([[Current Module Until Previous Session<br/><b>Applied Machine Learning (Weeks 17-20)</b><br/><i>(Scikit-learn, Decision Trees)</i><br/>ML lifecycle, regression, decision trees, classification, KNN]])
   end
 
-  CS({{Current Session<br/><b>Ensemble Learning: Random Forests</b><br/><i>Strength in numbers</i><br/>Bagging · Bootstrapping · Feature importance · Variance reduction}})
+  CS{{Current Session<br/><b>Ensemble Learning: Random Forests</b><br/><i>Strength in numbers</i><br/>Bagging · Bootstrapping · Feature importance · Variance reduction}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Foundation for ensemble and capstone</b><br/>Random Forests build the intuition for gradient boosting, clustering, and robust capstone models."])

@@ -11,7 +11,7 @@ flowchart TB
     C1[["Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNN, LSTM/GRU)</i><br/>CV pipelines, RNNs, embeddings, LSTMs"]]
   end
 
-  CS({{Current Session<br/><b>Transformers: Self-Attention Mechanism</b><br/><i>From sequential to parallel attention</i><br/>Query · Key · Value · Scaled dot-product · Multi-head · Positional encoding}})
+  CS{{Current Session<br/><b>Transformers: Self-Attention Mechanism</b><br/><i>From sequential to parallel attention</i><br/>Query · Key · Value · Scaled dot-product · Multi-head · Positional encoding}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Gateway to modern NLP and LLMs</b><br/>Mastering self-attention unlocks BERT, GPT,<br/>and every LLM technique in the course."])

@@ -10,7 +10,7 @@ flowchart TB
     C1[["Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost, PCA)</i><br/>Classifiers, clustering, dimensionality reduction, optimisation"]]
   end
 
-  CS({{Current Session<br/><b>Neural Network Foundations</b><br/><i>From logistic regression to a neuron</i><br/>Perceptron · MLP forward pass · activation functions}})
+  CS{{Current Session<br/><b>Neural Network Foundations</b><br/><i>From logistic regression to a neuron</i><br/>Perceptron · MLP forward pass · activation functions}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Gateway to all deep learning</b><br/>This session unlocks CNNs, RNNs, Transformers, and LLMs — every major architecture ahead builds on the neuron."])

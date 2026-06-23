@@ -10,7 +10,7 @@ flowchart TB
     C1[["Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost, Neural Nets)</i><br/>Classifiers, clustering, optimisation, neural network foundations"]]
   end
 
-  CS({{Current Session<br/><b>Backpropagation &amp; Training Intuition</b><br/><i>Training deep networks from first principles</i><br/>Xavier init · He init · Backpropagation · Chain rule · Gradient flow}})
+  CS{{Current Session<br/><b>Backpropagation &amp; Training Intuition</b><br/><i>Training deep networks from first principles</i><br/>Xavier init · He init · Backpropagation · Chain rule · Gradient flow}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Unlocks practical deep learning</b><br/>Mastering backpropagation and weight initialisation equips you to train any neural network architecture — CNNs, RNNs, and Transformers — which is exactly what Module 3 demands."])

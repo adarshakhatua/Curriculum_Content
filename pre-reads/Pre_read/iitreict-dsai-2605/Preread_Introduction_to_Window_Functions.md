@@ -11,7 +11,7 @@ flowchart TB
     C1[["Current Module Until Previous Session<br/><b>Module 3: SQL for Data Science</b><br/><i>(SQL Joins, GROUP BY)</i><br/>DB schema, joins, aggregations with GROUP BY and HAVING"]]
   end
 
-  CS({{Current Session<br/><b>Introduction to Window Functions</b><br/><i>A new dimension of row-wise calculation</i><br/>OVER clause · ROW_NUMBER · RANK · DENSE_RANK · Running totals}})
+  CS{{Current Session<br/><b>Introduction to Window Functions</b><br/><i>A new dimension of row-wise calculation</i><br/>OVER clause · ROW_NUMBER · RANK · DENSE_RANK · Running totals}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Powers advanced analytics ahead</b><br/>Enables statistical comparisons, feature engineering, and sequential analysis across future modules."])

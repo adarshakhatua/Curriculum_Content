@@ -12,7 +12,7 @@ flowchart TB
     C1([[Current Module Until Previous Session<br/><b>Module 6: GenAI for Data Science</b><br/><i>(Foundation Models, Context Windows)</i><br/>Learnt LLM fundamentals and tokenization]])
   end
 
-  CS({{Current Session<br/><b>Mastering Prompt Engineering</b><br/><i>From consumer to engineer of AI</i><br/>Zero-shot · Few-shot · Chain-of-thought · Role prompting · Temperature}})
+  CS{{Current Session<br/><b>Mastering Prompt Engineering</b><br/><i>From consumer to engineer of AI</i><br/>Zero-shot · Few-shot · Chain-of-thought · Role prompting · Temperature}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Unlocks all GenAI sessions ahead</b><br/>Mastering prompt engineering is the gateway skill for every subsequent session in this module — from handling LLM edge cases and integrating with the OpenAI API to building RAG systems and AI-powered applications."])

@@ -10,7 +10,7 @@ flowchart TB
     C1[["Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost)</i><br/>Classifiers, ensembles, and clustering algorithms"]]
   end
 
-  CS({{Current Session<br/><b>Dimensionality Reduction: PCA &amp; t-SNE</b><br/><i>Seeing hidden structure in high dimensions</i><br/>Curse of dimensionality &middot; PCA &middot; t-SNE &middot; UMAP &middot; Explained variance}})
+  CS{{Current Session<br/><b>Dimensionality Reduction: PCA &amp; t-SNE</b><br/><i>Seeing hidden structure in high dimensions</i><br/>Curse of dimensionality &middot; PCA &middot; t-SNE &middot; UMAP &middot; Explained variance}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Essential bridge to deep learning</b><br/>PCA and t-SNE teach you to think in feature spaces and latent representations — a skill you will use constantly in neural networks and embedding layers."])

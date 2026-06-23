@@ -11,7 +11,7 @@ flowchart TB
     C1[["Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNNs, Transformers/LLMs)</i><br/>CV, NLP, Transformers, and LLM fine-tuning"]]
   end
 
-  CS({{Current Session<br/><b>Vector Databases &amp; Semantic Search</b><br/><i>From keywords to meaning</i><br/>Embedding models · Cosine similarity · ChromaDB · FAISS}})
+  CS{{Current Session<br/><b>Vector Databases &amp; Semantic Search</b><br/><i>From keywords to meaning</i><br/>Embedding models · Cosine similarity · ChromaDB · FAISS}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Bridges ML to production retrieval</b><br/>Vector search connects deep learning to<br/>grounded retrieval, powering RAG and AI agents."])

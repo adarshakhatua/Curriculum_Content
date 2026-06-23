@@ -10,7 +10,7 @@ flowchart TB
     C1([[Current Module Until Previous Session<br/><b>Module 2</b><br/><i>(Scikit-learn, XGBoost, PCA)</i><br/>Supervised classifiers, clustering, dimensionality reduction, optimisation]])
   end
 
-  CS({{Current Session<br/><b>Model Compression &amp; Efficiency</b><br/><i>Think small, deploy big</i><br/>Pruning · Distillation · Quantisation · Benchmarking}})
+  CS{{Current Session<br/><b>Model Compression &amp; Efficiency</b><br/><i>Think small, deploy big</i><br/>Pruning · Distillation · Quantisation · Benchmarking}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Enables efficient deep learning deployment</b><br/>Mastering compression prepares you to deploy the neural networks and LLMs built in Module 3 at production scale."])

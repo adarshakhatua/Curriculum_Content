@@ -10,7 +10,7 @@ flowchart TB
     C1([[Current Module Until Previous Session<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas, cleaning, EDA concepts]])
   end
 
-  CS({{Current Session<br/><b>Visualizing Data with Seaborn</b><br/><i>From tables to visual insight</i><br/>Statistical plots · scatter plots · histograms · heatmaps}})
+  CS{{Current Session<br/><b>Visualizing Data with Seaborn</b><br/><i>From tables to visual insight</i><br/>Statistical plots · scatter plots · histograms · heatmaps}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Visualization unlocks deeper analysis</b><br/>Seaborn is the bridge between cleaned data and the statistical/ML modeling that follows in Modules 4 &amp; 5."])

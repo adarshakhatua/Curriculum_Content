@@ -10,7 +10,7 @@ flowchart TB
     P2(["Previous Module<br/><b>Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy, Pandas, and data exploration"])
   end
 
-  CS({{Current Session<br/><b>Relational Database Foundations</b><br/><i>Think in tables, not scripts</i><br/>Tables · Rows · Columns · Keys · Schema Design}})
+  CS{{Current Session<br/><b>Relational Database Foundations</b><br/><i>Think in tables, not scripts</i><br/>Tables · Rows · Columns · Keys · Schema Design}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Bridges data tools to real-world databases</b><br/>Mastering relational databases gives you the ability to query and organize data at scale — a skill every future module depends on for sourcing, joining, and preparing real datasets."])

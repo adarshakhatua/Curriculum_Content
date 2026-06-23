@@ -10,7 +10,7 @@ flowchart TB
     C1[["Current Module Until Previous Session<br/><b>Module 2: Data Analysis with NumPy &amp; Pandas</b><br/><i>(NumPy, Pandas)</i><br/>NumPy arrays, vectorized ops, Pandas basics"]]
   end
 
-  CS({{Current Session<br/><b>Data Selection &amp; Filtering</b><br/><i>Ask precise questions of your data</i><br/>Boolean indexing · .loc · .iloc · multiple conditions}})
+  CS{{Current Session<br/><b>Data Selection &amp; Filtering</b><br/><i>Ask precise questions of your data</i><br/>Boolean indexing · .loc · .iloc · multiple conditions}}
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Filtering powers every data task ahead</b><br/>Selecting the right rows and columns is the foundational skill for SQL queries, statistical analysis, ML feature selection, and GenAI pipelines."])

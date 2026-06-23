@@ -11,7 +11,7 @@ flowchart TB
     C1[["Current Module Until Previous Session<br/><b>Module 3</b><br/><i>(CNNs, Transformers, BERT)</i><br/>CV · NLP · self-attention · Transformers · BERT"]]
   end
 
-  CS({{Current Session<br/><b>GPT &amp; Prompt Engineering</b><br/><i>From architecture to interaction</i><br/>Autoregressive decoding · Sampling strategies · Prompting patterns · Structured output}})
+  CS{{Current Session<br/><b>GPT &amp; Prompt Engineering</b><br/><i>From architecture to interaction</i><br/>Autoregressive decoding · Sampling strategies · Prompting patterns · Structured output}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Foundation for LLM mastery</b><br/>Unlocks fine-tuning, RAG, AI agents,<br/>and all downstream LLM content."])

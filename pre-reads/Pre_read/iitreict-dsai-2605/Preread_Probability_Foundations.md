@@ -12,7 +12,7 @@ flowchart TB
     C1([[Current Module Until Previous Session<br/><b>Module 4: Statistics &amp; Data Visualization</b><br/><i>(Descriptive Stats, Statistical Measures)</i><br/>Mean, median, variance, skewness, kurtosis]])
   end
 
-  CS({{Current Session<br/><b>Probability Foundations</b><br/><i>Thinking in uncertainties</i><br/>Basic probability · Conditional probability · Bayes Theorem · AI applications}})
+  CS{{Current Session<br/><b>Probability Foundations</b><br/><i>Thinking in uncertainties</i><br/>Basic probability · Conditional probability · Bayes Theorem · AI applications}})
 
   subgraph Value["Why This Matters"]
     CV(["Course Value<br/><b>Unlocks predictive modeling</b><br/>Probability provides the mathematical backbone for machine learning algorithms in Module 5."])
